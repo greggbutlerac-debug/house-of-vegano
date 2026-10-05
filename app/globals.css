@@ -104,3 +104,7 @@
 .heroDots button.active{background:#efb51f;border-color:#efb51f}
 .heroPause{position:absolute;z-index:5;left:24px;bottom:18px;width:44px;height:44px;border:0;background:rgba(0,0,0,.28);color:#efb51f;font-size:24px;cursor:pointer}
 @media(prefers-reduced-motion:reduce){.heroDishSlide{transition:none}}
+
+.dishShowcase{position:relative;height:78vh;min-height:620px;overflow:hidden;background:#050505}
+.dishShowcase .heroDishSlider{position:absolute;inset:0}
+@media(max-width:760px){.dishShowcase{height:68vh;min-height:520px}}
