@@ -78,3 +78,6 @@
 .muralAfterWords strong{display:block;font-size:clamp(74px,10vw,155px);line-height:.72;letter-spacing:-.07em}
 .muralAfterWords em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
 @media(max-width:760px){.muralAfterVideo{height:78vh;min-height:580px}.muralAfterWords{left:22px;bottom:50px}.muralAfterWords strong{font-size:58px}}
+
+.thaliaPortraitImage{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block}
+@media(max-width:760px){.thaliaPortraitImage{object-position:center 24%}}
