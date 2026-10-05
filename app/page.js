@@ -11,14 +11,14 @@ export default function Home(){
 return <main>
 <header className="nav">
 <a className="brand" href="#top"><Image src="/images/house-of-vegano-logo.png" alt="House of Vegano" width={76} height={76}/><span>HOUSE OF VEGANO</span></a>
-<nav><a href="#food">FOOD</a><a href="#story">THALIA</a><a href="#visit">VISIT</a></nav>
+<nav><a href="/menu">MENU</a><a href="#food">FOOD</a><a href="#story">THALIA</a><a href="#visit">VISIT</a></nav>
 <a className="order" href="https://www.houseofvegano.com/" target="_blank" rel="noreferrer">ORDER NOW</a>
 </header>
 
 <section id="top" className="hero">
 <Image src="/images/hero-sushi-restaurant.png" alt="House of Vegano sushi at the restaurant" fill priority sizes="100vw"/>
 <div className="shade"/>
-<div className="heroCopy"><p className="kicker">ST. PETERSBURG · FLORIDA</p><h1>REDEFINING<br/><em>VEGAN.</em><br/>REIMAGINING<br/><em>SUSHI.</em></h1><p className="lead">Come because it’s vegan. Come back because it’s unforgettable.</p><div className="buttons"><a className="hot" href="#food">TASTE THE HOUSE</a><a className="line" href="#visit">VISIT 1990 CENTRAL</a></div></div>
+<div className="heroCopy"><p className="kicker">ST. PETERSBURG · FLORIDA</p><h1>REDEFINING<br/><em>VEGAN.</em><br/>REIMAGINING<br/><em>SUSHI.</em></h1><p className="lead">Come because it’s vegan. Come back because it’s unforgettable.</p><div className="buttons"><a className="hot" href="/menu">EXPLORE THE MENU</a><a className="line" href="#visit">VISIT 1990 CENTRAL</a></div></div>
 <div className="scroll">SCROLL TO TASTE ↓</div>
 </section>
 
