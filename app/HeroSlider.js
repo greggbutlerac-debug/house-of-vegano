@@ -3,14 +3,14 @@
 import {useEffect,useState} from "react";
 
 const slides=[
-  ["https://cdn.spotapps.co/spothopper/image/fetch/f_auto%2Cq_auto%3Abest%2Cc_fit%2Ch_1200/http%3A//static.spotapps.co/spots/c2/ae5c2e4f5742e9ac7dead1b7914611/%3Aoriginal","House of Vegano sushi roll"],
-  ["https://cdn.spotapps.co/spothopper/image/fetch/f_auto%2Cq_auto%3Abest%2Cc_fit%2Ch_1200/http%3A//static.spotapps.co/spots/cf/00245b22204421b01ca100e2bee55e/%3Aoriginal","House of Vegano signature dish"],
-  ["https://cdn.spotapps.co/spothopper/image/fetch/f_auto%2Cq_auto%3Abest%2Cc_fit%2Ch_1200/http%3A//static.spotapps.co/spots/3f/bfd3dbb1754f2497985d998cb9c03e/%3Aoriginal","House of Vegano sushi"],
-  ["https://cdn.spotapps.co/spothopper/image/fetch/f_auto%2Cq_auto%3Abest%2Cc_fit%2Ch_1200/http%3A//static.spotapps.co/spots/c1/b39035834f4f20998268b3332bb3bf/%3Aoriginal","House of Vegano featured dish"],
-  ["https://cdn.spotapps.co/spothopper/image/fetch/f_auto%2Cq_auto%3Abest%2Cc_fit%2Ch_1200/http%3A//static.spotapps.co/spots/52/0ba92aab894b0fa8fee9bd01efdbfc/%3Aoriginal","House of Vegano featured sushi"],
-  ["https://cdn.spotapps.co/spothopper/image/fetch/f_auto%2Cq_auto%3Abest%2Cc_fit%2Ch_1200/http%3A//static.spotapps.co/spots/87/da339b5d8c4135ba32e0eec7ee0292/%3Aoriginal","House of Vegano plated dish"],
-  ["https://cdn.spotapps.co/spothopper/image/fetch/f_auto%2Cq_auto%3Abest%2Cc_fit%2Ch_1200/http%3A//static.spotapps.co/spots/25/aeb248fe094e4abdd24cc7a10bf0a1/%3Aoriginal","House of Vegano signature roll"],
-  ["https://cdn.spotapps.co/spothopper/image/fetch/f_auto%2Cq_auto%3Abest%2Cc_fit%2Ch_1200/http%3A//static.spotapps.co/spots/5e/6f11571cc14ef69a62676edefa4a1b/%3Aoriginal","House of Vegano food presentation"]
+  ["https://static.spotapps.co/spots/19/df68b6b6464223ab75475f858e73cf/full","House of Vegano Spicy Tuna roll"],
+  ["https://static.spotapps.co/spots/8e/75c92c2ce74cc1b27b38c193a44dd0/full","House of Vegano Rainbow Roll"],
+  ["https://static.spotapps.co/spots/1e/625e4f72784322b93a681619b32b35/full","House of Vegano The Burg roll"],
+  ["https://static.spotapps.co/spots/78/f7bf21f6d54df0a81af0f66bb33bf5/full","House of Vegano Seaweed Salad"],
+  ["https://static.spotapps.co/spots/56/031328c8ed48eabc685c378ce80859/full","House of Vegano Vegan Tiramisu"],
+  ["https://static.spotapps.co/spots/22/58ca1f2ae243adbe7beef55769878a/full","House of Vegano HOV Dumplings"],
+  ["https://static.spotapps.co/spots/6d/62cd163c7d4dc8b62aadd05bf3926f/full","House of Vegano Tom Kha ramen"],
+  ["https://static.spotapps.co/spots/43/b7fab7b2ec420e90c7db99b2b78da5/full","House of Vegano Palms and Rainbow rolls"]
 ];
 
 export default function HeroSlider(){
