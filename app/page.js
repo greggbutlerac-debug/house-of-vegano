@@ -53,9 +53,9 @@ export default function Home(){return <main>
 </section>
 
 <section className="editorialGrid">
-<a href="/menu/rolls" className="edTall"><figure><img className="officialPhoto" src="https://static.spotapps.co/spots/5e/2c1afb6a71456cae33a86586a70aa7/full" alt="House of Vegano Adriana Vegano Sparkle II roll"/><figcaption><small>SIGNATURE ROLLS</small><strong>BUILT DIFFERENT.</strong><span>Layered, colorful and designed to make the first bite feel like an event.</span></figcaption></figure></a>
-<a href="/menu/ramen"><figure><img className="officialPhoto" src="https://static.spotapps.co/spots/6d/62cd163c7d4dc8b62aadd05bf3926f/full" alt="House of Vegano Tom Kha ramen"/><figcaption><small>RAMEN</small><strong>DEEP COMFORT.</strong><span>Warm, aromatic, rich and made for the bowl you keep thinking about later.</span></figcaption></figure></a>
-<a href="/menu/poke-bowl"><figure><img className="officialPhoto" src="https://static.spotapps.co/spots/c9/8f265be6d64e4fa455a6e9421a0dd4/full" alt="House of Vegano assortment of dishes"/><figcaption><small>POKE + PLATES</small><strong>THE HOUSE WAY.</strong><span>Fresh contrast, bold sauces and the kind of color that hits before the fork does.</span></figcaption></figure></a>
+<a href="/menu/rolls" className="edTall"><figure><img className="officialPhoto" src="https://static.spotapps.co/spots/5e/2c1afb6a71456cae33a86586a70aa7/full" alt="House of Vegano Adriana Vegano Sparkle II roll"/><figcaption><small>SIGNATURE ROLLS</small><strong>BUILT DIFFERENT.</strong><span>Layered, colorful and designed to make the first bite feel like an event.</span><b className="foodCta">EXPLORE THE ROLLS →</b></figcaption></figure></a>
+<a href="/menu/ramen"><figure><img className="officialPhoto" src="https://static.spotapps.co/spots/6d/62cd163c7d4dc8b62aadd05bf3926f/full" alt="House of Vegano Tom Kha ramen"/><figcaption><small>RAMEN</small><strong>DEEP COMFORT.</strong><span>Warm, aromatic, rich and made for the bowl you keep thinking about later.</span><b className="foodCta">ENTER THE RAMEN →</b></figcaption></figure></a>
+<a href="/menu/poke-bowl"><figure><img className="officialPhoto" src="https://static.spotapps.co/spots/c9/8f265be6d64e4fa455a6e9421a0dd4/full" alt="House of Vegano assortment of dishes"/><figcaption><small>POKE + PLATES</small><strong>THE HOUSE WAY.</strong><span>Fresh contrast, bold sauces and the kind of color that hits before the fork does.</span><b className="foodCta">EXPLORE THE BOWL →</b></figcaption></figure></a>
 </section>
 
 <section className="dumplingHero dumplingV2" id="dumplings">
@@ -82,7 +82,7 @@ export default function Home(){return <main>
 </section>
 
 <section className="menuUniverse">
-<div className="universeIntro"><p className="kicker">DINNER AT THE HOUSE · 04</p><h2>WHAT ARE<br/>YOU <em>CRAVING?</em></h2><p className="universeLead">Start with the thing you came for. Add the thing somebody else ordered that you suddenly need. Then keep going.</p></div>
+<div className="universeIntro"><p className="kicker">DINNER AT THE HOUSE · 04</p><h2>WHAT ARE<br/>YOU <em>CRAVING?</em></h2><p className="universeLead">Start with the thing you came for. Add the thing somebody else ordered that you suddenly need. Then keep going.</p><a className="universeCta" href="/menu">SEE THE ENTIRE MENU →</a></div>
 <div className="categoryWall">
 {[["ROLLS","rolls"],["SIGNATURE SIDES","signature-sides"],["BEVERAGES","beverages"],["DESSERTS","desserts"],["RAMEN","ramen"],["DUMPLINGS","dumplings"],["TEST KITCHEN","test-kitchen"],["POKE BOWL","poke-bowl"],["SPECIAL EVENT","special-event"],["LUNCH SPECIAL","lunch-special"]].map(([x,slug],i)=><a href={"/menu/"+slug} key={x}><span>{String(i+1).padStart(2,"0")}</span>{x}<b>↗</b></a>)}
 </div>
