@@ -297,3 +297,14 @@
 .ramenPairingCards{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:#ffffff33}.ramenPairingCards article{background:#7f2a19;padding:38px;display:flex;flex-direction:column;min-height:320px}.ramenPairingCards strong{font-size:clamp(26px,3vw,44px);line-height:.95}.ramenPairingCards p{font-family:Georgia,serif;line-height:1.5;margin:auto 0 24px}.ramenPairingCards a{font-size:8px;font-weight:900;letter-spacing:.14em}
 .ramenClose{background:#090909;color:#f7e9d5;padding:10vw 7vw;text-align:center}.ramenClose>span{font-size:9px;font-weight:900;letter-spacing:.22em;color:#efc35a}.ramenClose h2{font-size:clamp(70px,9vw,145px);line-height:.72;letter-spacing:-.07em;margin:35px auto 45px}.ramenClose h2 em{font-family:Georgia,serif;font-weight:400;color:#a93820}.ramenClose a{display:inline-block;border:1px solid currentColor;padding:15px 18px;font-size:9px;font-weight:900;letter-spacing:.15em}
 @media(max-width:760px){.ramenBuild,.ramenPairing{grid-template-columns:1fr;padding:80px 22px}.ramenBuild h2,.ramenPairingCopy h2{font-size:58px}.ramenPairingCards{grid-template-columns:1fr}.ramenPairingCards article{min-height:260px}.ramenClose{padding:90px 22px}.ramenClose h2{font-size:56px}}
+
+/* RAMEN PAIRING PHOTO CARDS */
+.ramenPairCard{position:relative;overflow:hidden;min-height:360px!important;padding:0!important;background:#111!important}
+.ramenPairCard>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.ramenPairCard:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.88) 0%,rgba(0,0,0,.42) 48%,rgba(0,0,0,.12) 100%)}
+.ramenPairCard>div{position:absolute;z-index:2;left:0;right:0;bottom:0;padding:32px;display:flex;flex-direction:column;align-items:flex-start}
+.ramenPairCard strong{font-size:clamp(28px,3vw,46px);color:#fff}
+.ramenPairCard p{color:#fff;font-family:Georgia,serif;line-height:1.45;margin:14px 0 22px}
+.ramenPairCard a{color:#fff}
+.ramenPairCard:hover>img{transform:scale(1.045)}
+@media(max-width:760px){.ramenPairCard{min-height:340px!important}.ramenPairCard>div{padding:26px}}
