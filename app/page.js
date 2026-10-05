@@ -14,14 +14,14 @@ export default function Home(){return <main>
 <a className="order" href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a>
 </header>
 
-<section id="top" className="hero heroV2">
+<section id="top" className="hero heroV2"><div className="heroMotion" aria-hidden="true"><span className="motionWord m1">THALIA’S HOUSE</span><span className="motionWord m2">REIMAGINED</span><span className="motionWord m3">ST. PETE</span></div>
 <Image src="/images/mural-interior-hero.png" alt="House of Vegano dining room and mural" fill priority sizes="100vw"/>
 <div className="shade v2Shade"/>
 <div className="heroCopy v2Copy"><p className="kicker">ST. PETERSBURG · FLORIDA</p><h1>WELCOME<br/>TO <em>THE HOUSE.</em></h1><p className="lead">Thalia Tatham is redefining vegan and reimagining sushi—one unforgettable table at a time.</p><div className="buttons"><a className="hot" href={orderUrl} target="_blank" rel="noreferrer">ORDER THE HOUSE</a><a className="line" href="/menu">EXPLORE THE MENU</a></div></div>
 <div className="heroRail"><span>VEGAN SUSHI</span><span>RAMEN</span><span>DUMPLINGS</span><span>ST. PETE</span></div>
 </section>
 
-<section className="marquee"><div>REDEFINING VEGAN · REIMAGINING SUSHI · AMAZING FOOD THAT JUST HAPPENS TO BE VEGAN · </div></section>
+<section className="motionInterlude"><div className="motionFrame"><Image src="/images/signature-roll-closeup.png" alt="House of Vegano signature sushi" fill sizes="100vw"/></div><div className="motionType"><span>01</span><strong>COLOR.</strong><strong>TEXTURE.</strong><strong>THALIA.</strong></div></section><section className="marquee"><div>REDEFINING VEGAN · REIMAGINING SUSHI · AMAZING FOOD THAT JUST HAPPENS TO BE VEGAN · </div></section>
 
 <section className="manifesto">
 <p className="kicker">HOUSE OF VEGANO · EST. BY THALIA TATHAM</p>
