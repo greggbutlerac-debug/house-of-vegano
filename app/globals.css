@@ -58,3 +58,11 @@
 .heroV2 .v2Shade{z-index:1}.heroV2 .heroMotion,.heroV2 .heroCopy{z-index:2}.heroV2 .heroRail{z-index:3}
 @media(max-width:760px){.houseHeroVideo{object-position:center center}}
 @media(prefers-reduced-motion:reduce){.houseHeroVideo{display:none}.heroV2{background:url("https://static.spotapps.co/website_images/ab_websites/109242_website/video_poster.jpg") center/cover no-repeat}}
+
+
+/* MURAL FIRST FRAME — reveal video after opening beat */
+.heroMuralIntro{position:absolute;inset:0;z-index:4;overflow:hidden;pointer-events:none;background:#050505;animation:muralReveal 5.2s ease forwards}
+.heroMuralIntro img{object-fit:cover;object-position:center;transform:scale(1.015);animation:muralPush 5.2s ease forwards}
+@keyframes muralReveal{0%,62%{opacity:1;visibility:visible}100%{opacity:0;visibility:hidden}}
+@keyframes muralPush{0%{transform:scale(1.015)}100%{transform:scale(1.06)}}
+@media(prefers-reduced-motion:reduce){.heroMuralIntro{animation:none;opacity:1}.heroMuralIntro img{animation:none}}
