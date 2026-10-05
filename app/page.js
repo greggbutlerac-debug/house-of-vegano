@@ -22,7 +22,7 @@ return <main>
 <div className="scroll">SCROLL TO TASTE ↓</div>
 </section>
 
-<section className="statement"><p>PLANT-BASED DOESN’T<br/>MEAN <em>PLAYING IT SAFE.</em></p></section>
+<section className="menuCallout"><span>THE FULL HOUSE OF VEGANO MENU</span><h2>WHAT ARE<br/>YOU <em>CRAVING?</em></h2><p>Signature rolls. Dumplings. Ramen. Nigiri. Sweet finishes.</p><a href="/menu">SEE THE FULL MENU →</a></section><section className="statement"><p>PLANT-BASED DOESN’T<br/>MEAN <em>PLAYING IT SAFE.</em></p></section>
 
 <section id="food" className="foodIntro">
 <div><p className="kicker">01 · THE FOOD</p><h2>SUSHI WITH<br/><em>NOTHING</em><br/>TO PROVE.</h2></div>
@@ -47,7 +47,7 @@ return <main>
 
 <section className="spread"><Image src="/images/sushi-platter-assortment.png" alt="House of Vegano sushi assortment" fill sizes="100vw"/><div><span>04 · BRING EVERYBODY</span><h2>ORDER<br/>TOO MUCH.</h2></div></section>
 
-<section id="visit" className="visit">
+<section className="houseMoment"><Image src="/images/restaurant-exterior-1990-central.png" alt="House of Vegano in St. Petersburg" fill sizes="100vw"/><div><span>WELCOME TO</span><h2>THE HOUSE.</h2><a href="/menu">EXPLORE THE MENU →</a></div></section><section id="visit" className="visit">
 <div className="visitPhoto"><Image src="/images/restaurant-exterior-1990-central.png" alt="House of Vegano at 1990 Central Avenue" fill sizes="(max-width:800px) 100vw,55vw"/></div>
 <div className="visitCopy"><p className="kicker">05 · COME THROUGH</p><h2>YOUR TABLE<br/>IS <em>WAITING.</em></h2><p>1990 CENTRAL AVENUE<br/>ST. PETERSBURG, FLORIDA 33712</p><div className="buttons"><a className="hot" href="https://maps.google.com/?q=1990+Central+Ave+St+Petersburg+FL+33712" target="_blank" rel="noreferrer">GET DIRECTIONS</a><a className="darkLine" href="https://www.houseofvegano.com/" target="_blank" rel="noreferrer">MENU + ORDERING</a></div></div>
 </section>
