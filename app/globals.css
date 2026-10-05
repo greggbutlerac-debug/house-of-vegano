@@ -81,3 +81,14 @@
 
 .thaliaPortraitImage{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block}
 @media(max-width:760px){.thaliaPortraitImage{object-position:center 24%}}
+
+.houseVideoMoment{position:relative;min-height:86vh;overflow:hidden;background:#000}
+.houseVideoMoment video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.houseVideoMoment:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.18) 58%,rgba(0,0,0,.38))}
+.houseVideoMoment>div{position:absolute;z-index:2;left:6vw;bottom:8vw;max-width:780px}
+.houseVideoMoment span{display:block;font-size:10px;letter-spacing:.2em;font-weight:900;margin-bottom:18px}
+.houseVideoMoment strong{display:block;font-size:clamp(56px,8vw,126px);line-height:.78;letter-spacing:-.06em}
+.houseVideoMoment strong em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
+.houseVideoMomentB>div{left:auto;right:6vw;text-align:right}
+.houseVideoMomentB strong em{color:#20c9bf}
+@media(max-width:760px){.houseVideoMoment{min-height:68vh}.houseVideoMoment>div,.houseVideoMomentB>div{left:22px;right:22px;bottom:44px;text-align:left}.houseVideoMoment strong{font-size:52px}}
