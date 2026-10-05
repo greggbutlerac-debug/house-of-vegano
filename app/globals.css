@@ -308,3 +308,161 @@
 .ramenPairCard a{color:#fff}
 .ramenPairCard:hover>img{transform:scale(1.045)}
 @media(max-width:760px){.ramenPairCard{min-height:340px!important}.ramenPairCard>div{padding:26px}}
+
+/* GLOBAL CTA UPGRADE */
+.foodCta,
+.universeCta,
+.ramenPairingCopy>a,
+.ramenPairCard a,
+.dumplingPairLinks a,
+.dumplingClose a,
+.ramenClose a,
+.manifestoSideDeep>a,
+.cateringCta,
+.eventsCta,
+a[class*="Cta"],
+button[class*="Cta"]{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  width:max-content;
+  max-width:100%;
+  overflow:hidden;
+  border:1px solid currentColor;
+  border-radius:999px;
+  padding:13px 18px;
+  text-decoration:none;
+  font-size:9px;
+  font-weight:900;
+  letter-spacing:.16em;
+  line-height:1;
+  text-transform:uppercase;
+  transform:translateZ(0);
+  transition:transform .24s ease,color .24s ease,border-color .24s ease,box-shadow .24s ease,background .24s ease;
+}
+.foodCta:before,
+.universeCta:before,
+.ramenPairingCopy>a:before,
+.ramenPairCard a:before,
+.dumplingPairLinks a:before,
+.dumplingClose a:before,
+.ramenClose a:before,
+.manifestoSideDeep>a:before,
+.cateringCta:before,
+.eventsCta:before,
+a[class*="Cta"]:before,
+button[class*="Cta"]:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(110deg,transparent 0%,rgba(255,255,255,.16) 42%,rgba(255,255,255,.34) 50%,rgba(255,255,255,.16) 58%,transparent 100%);
+  transform:translateX(-130%);
+  transition:transform .55s ease;
+  pointer-events:none;
+}
+.foodCta:hover,
+.universeCta:hover,
+.ramenPairingCopy>a:hover,
+.ramenPairCard a:hover,
+.dumplingPairLinks a:hover,
+.dumplingClose a:hover,
+.ramenClose a:hover,
+.manifestoSideDeep>a:hover,
+.cateringCta:hover,
+.eventsCta:hover,
+a[class*="Cta"]:hover,
+button[class*="Cta"]:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 26px rgba(0,0,0,.18);
+}
+.foodCta:hover:before,
+.universeCta:hover:before,
+.ramenPairingCopy>a:hover:before,
+.ramenPairCard a:hover:before,
+.dumplingPairLinks a:hover:before,
+.dumplingClose a:hover:before,
+.ramenClose a:hover:before,
+.manifestoSideDeep>a:hover:before,
+.cateringCta:hover:before,
+.eventsCta:hover:before,
+a[class*="Cta"]:hover:before,
+button[class*="Cta"]:hover:before{
+  transform:translateX(130%);
+}
+
+/* Primary House actions */
+.universeCta,
+.ramenClose a,
+.dumplingClose a,
+.cateringCta.primary,
+.eventsCta.primary{
+  background:#ef2c85;
+  border-color:#ef2c85;
+  color:#111!important;
+}
+.universeCta:hover,
+.ramenClose a:hover,
+.dumplingClose a:hover,
+.cateringCta.primary:hover,
+.eventsCta.primary:hover{
+  background:#16b8b0;
+  border-color:#16b8b0;
+  color:#071110!important;
+}
+
+/* Dark / image-card actions */
+.foodCta,
+.ramenPairCard a,
+.dumplingPairLinks a,
+.manifestoSideDeep>a{
+  background:rgba(8,8,8,.28);
+  color:inherit;
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+}
+.foodCta:hover,
+.ramenPairCard a:hover,
+.dumplingPairLinks a:hover,
+.manifestoSideDeep>a:hover{
+  background:#16b8b0;
+  border-color:#16b8b0;
+  color:#071110!important;
+}
+
+/* Accessible keyboard focus */
+.foodCta:focus-visible,
+.universeCta:focus-visible,
+.ramenPairingCopy>a:focus-visible,
+.ramenPairCard a:focus-visible,
+.dumplingPairLinks a:focus-visible,
+.dumplingClose a:focus-visible,
+.ramenClose a:focus-visible,
+.manifestoSideDeep>a:focus-visible,
+.cateringCta:focus-visible,
+.eventsCta:focus-visible,
+a[class*="Cta"]:focus-visible,
+button[class*="Cta"]:focus-visible{
+  outline:3px solid #efc35a;
+  outline-offset:3px;
+}
+
+@media(max-width:760px){
+  .foodCta,
+  .universeCta,
+  .ramenPairingCopy>a,
+  .ramenPairCard a,
+  .dumplingPairLinks a,
+  .dumplingClose a,
+  .ramenClose a,
+  .manifestoSideDeep>a,
+  .cateringCta,
+  .eventsCta,
+  a[class*="Cta"],
+  button[class*="Cta"]{
+    padding:13px 16px;
+    font-size:8px;
+    letter-spacing:.14em;
+  }
+}
