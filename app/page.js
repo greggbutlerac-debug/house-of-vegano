@@ -20,7 +20,7 @@ export default function Home(){return <main>
 <source src="/videos/4438.mp4" type="video/mp4"/>
 </video>
 <div className="shade v2Shade"/>
-<div className="heroCopy v2Copy"><p className="kicker">ST. PETERSBURG · FLORIDA</p><h1>WELCOME<br/>TO <em>THE HOUSE.</em></h1><p className="lead">Thalia Tatham is redefining vegan and reimagining sushi—one unforgettable table at a time.</p><div className="buttons"><a className="hot" href={orderUrl} target="_blank" rel="noreferrer">ORDER THE HOUSE</a><a className="line" href="/menu">EXPLORE THE MENU</a></div></div>
+<div className="heroCopy v2Copy"><p className="kicker">ST. PETERSBURG · FLORIDA</p><h1>WELCOME<br/>TO <em>THE HOUSE.</em></h1><p className="lead">A plant-based sushi house with a global point of view—rooted in St. Petersburg, built around Thalia Tatham’s food, color, culture and imagination.</p><div className="heroMiniProof"><span>REIMAGINED SUSHI</span><span>CHEF-DRIVEN</span><span>BUILT IN ST. PETE</span></div><div className="buttons"><a className="hot" href={orderUrl} target="_blank" rel="noreferrer">ORDER THE HOUSE</a><a className="line" href="/menu">EXPLORE THE MENU</a></div></div>
 <div className="heroRail"><span>VEGAN SUSHI</span><span>RAMEN</span><span>DUMPLINGS</span><span>ST. PETE</span></div>
 </section>
 
@@ -32,6 +32,16 @@ export default function Home(){return <main>
 <p className="kicker">HOUSE OF VEGANO · EST. BY THALIA TATHAM</p>
 <h2>NOT A VEGAN<br/>VERSION OF<br/><em>ANYTHING.</em></h2>
 <div className="manifestoSide"><p className="manifestoLead">This is food with its own point of view: colorful, generous, unexpected and unmistakably Thalia.</p><div className="manifestoNotes"><span><b>01</b> BUILT FOR CRAVING, NOT COMPROMISE.</span><span><b>02</b> TEXTURE, HEAT, COLOR AND SAUCE DO THE TALKING.</span><span><b>03</b> PLANT-BASED IS THE MEDIUM. THE EXPERIENCE IS THE POINT.</span></div><a href="/menu">MEET THE MENU →</a></div>
+</section>
+
+<section className="houseCode">
+  <div className="houseCodeIntro"><span>THE HOUSE CODE</span><h2>WHAT MAKES<br/>IT <em>VEGANO.</em></h2><p>The point is not to remove something from sushi. The point is to build something with enough flavor, texture and identity that nothing feels missing.</p></div>
+  <div className="houseCodeGrid">
+    <article><b>01</b><h3>FLAVOR FIRST.</h3><p>Heat, acidity, richness, sweetness, smoke and umami are treated as the architecture of the dish—not decoration at the end.</p></article>
+    <article><b>02</b><h3>TEXTURE MATTERS.</h3><p>Mushrooms, vegetables, fruit, crisp elements, soft centers and sauces are layered so every bite has movement.</p></article>
+    <article><b>03</b><h3>MAKE IT BEAUTIFUL.</h3><p>The plate should hit before the first bite. Color and presentation are part of the experience, not an afterthought.</p></article>
+    <article><b>04</b><h3>KEEP MOVING.</h3><p>The House is not frozen in place. New dishes, new cities and new ways to bring the experience home are part of the vision.</p></article>
+  </div>
 </section>
 
 <section className="editorialGrid">
@@ -64,14 +74,14 @@ export default function Home(){return <main>
 </section>
 
 <section className="menuUniverse">
-<div className="universeIntro"><p className="kicker">DINNER AT THE HOUSE · 03</p><h2>WHAT ARE<br/>YOU <em>CRAVING?</em></h2><p className="universeLead">Start with the thing you came for. Add the thing somebody else ordered that you suddenly need. Then keep going.</p></div>
+<div className="universeIntro"><p className="kicker">DINNER AT THE HOUSE · 04</p><h2>WHAT ARE<br/>YOU <em>CRAVING?</em></h2><p className="universeLead">Start with the thing you came for. Add the thing somebody else ordered that you suddenly need. Then keep going.</p></div>
 <div className="categoryWall">
 {[["ROLLS","rolls"],["SIGNATURE SIDES","signature-sides"],["BEVERAGES","beverages"],["DESSERTS","desserts"],["RAMEN","ramen"],["DUMPLINGS","dumplings"],["TEST KITCHEN","test-kitchen"],["POKE BOWL","poke-bowl"],["SPECIAL EVENT","special-event"],["LUNCH SPECIAL","lunch-special"]].map(([x,slug],i)=><a href={"/menu/"+slug} key={x}><span>{String(i+1).padStart(2,"0")}</span>{x}<b>↗</b></a>)}
 </div>
 </section>
 
 <section className="testKitchen">
-<div><p className="kicker">THE TEST KITCHEN · 04</p><h2>WHAT’S<br/><em>NEXT?</em></h2><p>Where Thalia experiments. Limited ideas, new obsessions and dishes that may never behave like permanent menu items.</p><p className="testKitchenExtra">This is the permission slip for the menu to stay alive. A place for surprise, seasonal instincts and whatever idea is too interesting to leave in the notebook.</p><div className="testKitchenTags"><span>LIMITED</span><span>EXPERIMENTAL</span><span>THALIA’S PICK</span></div><a className="sectionCta darkCta" href="/menu/test-kitchen">ENTER THE TEST KITCHEN →</a></div>
+<div><p className="kicker">THE TEST KITCHEN · 05</p><h2>WHAT’S<br/><em>NEXT?</em></h2><p>Where Thalia experiments. Limited ideas, new obsessions and dishes that may never behave like permanent menu items.</p><p className="testKitchenExtra">This is the permission slip for the menu to stay alive. A place for surprise, seasonal instincts and whatever idea is too interesting to leave in the notebook.</p><div className="testKitchenTags"><span>LIMITED</span><span>EXPERIMENTAL</span><span>THALIA’S PICK</span></div><a className="sectionCta darkCta" href="/menu/test-kitchen">ENTER THE TEST KITCHEN →</a></div>
 <figure><Image src="/images/thalia-chef-platter.png" alt="Thalia with House of Vegano creations" fill sizes="55vw"/></figure>
 </section>
 
@@ -80,18 +90,20 @@ export default function Home(){return <main>
 <div id="events" className="actionCard eventCard"><img className="officialPhoto" src="https://static.spotapps.co/spots/ab/5798a256de415cbc113a51d04b88d0/full" alt="House of Vegano interior seating"/><div><span>PARTIES + EVENTS · MAKE IT PERSONAL</span><h2>YOUR<br/>OCCASION.</h2><p>Birthdays, gatherings, celebrations and nights worth making personal. Come for dinner—or make the room part of the story.</p><div className="actionDetails"><b>BIRTHDAYS</b><b>DINNERS</b><b>CELEBRATIONS</b></div><a href="/events">PLAN AN EVENT →</a></div></div>
 </section>
 
-<section className="dishShowcase"><HeroSlider/></section>
+<section className="dishShowcaseWrap"><div className="dishShowcaseIntro"><span>THE MENU IN MOTION · 06</span><h2>ONE DISH.<br/>THEN <em>ANOTHER.</em></h2><p>House of Vegano is meant to be discovered dish by dish. Swipe through a rotating look at the food, then follow the craving into the full menu.</p><a href="/menu">EXPLORE THE FULL MENU →</a></div><div className="dishShowcase"><HeroSlider/></div></section>
 
 <section className="houseVideoMoment houseVideoMomentB"><video autoPlay loop muted playsInline src="/videos/4437.mp4" aria-label="House of Vegano restaurant experience video"></video><div><span>HOUSE IN MOTION · 02</span><strong>THIS IS<br/><em>THALIA'S HOUSE.</em></strong></div></section><section className="housePulse"><div>HOUSE OF VEGANO</div><div>HOUSE OF VEGANO</div></section><section className="love">
-<p className="kicker">LOVE FOR THE HOUSE · 05</p><h2>PEOPLE<br/><em>REMEMBER.</em></h2><p className="loveLead">The best restaurant marketing is the sentence somebody says on the drive home: “We have to bring someone here.”</p>
+<p className="kicker">LOVE FOR THE HOUSE · 06</p><h2>PEOPLE<br/><em>REMEMBER.</em></h2><p className="loveLead">The best restaurant marketing is the sentence somebody says on the drive home: “We have to bring someone here.”</p>
 <div className="reviewGrid">{reviews.map(([q,n])=><blockquote key={n}><div>★★★★★</div><p>“{q}”</p><cite>{n}<br/>GOOGLE REVIEW</cite></blockquote>)}</div>
 </section>
 
 <section className="finalFood"><img className="officialPhoto" src="https://static.spotapps.co/spots/43/b7fab7b2ec420e90c7db99b2b78da5/full" alt="House of Vegano Palms and Rainbow rolls"/><div><p>ONE TABLE.<br/><em>ORDER TOO MUCH.</em></p><a href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a></div></section>
 
+<section className="flagshipCallout"><span>THE FLAGSHIP</span><strong>ST. PETE IS<br/><em>THE BEGINNING.</em></strong><p>The first House is where the vision becomes real—on the plate, in the room and around the table.</p></section>
+
 <section id="visit" className="visit visitV2">
 <div className="visitPhoto"><Image src="/images/restaurant-exterior-1990-central.png" alt="House of Vegano at 1990 Central Avenue" fill sizes="55vw"/></div>
-<div className="visitCopy"><p className="kicker">COME THROUGH · 06</p><h2>THE HOUSE<br/>IS <em>HERE.</em></h2><p>1990 CENTRAL AVENUE<br/>ST. PETERSBURG, FL 33712</p><p className="visitLead">Come hungry. Stay long enough to look around. The mural, the color, the room and the food are all part of the same experience.</p><div className="hours"><span>MON + THU</span><b>11 AM — 7 PM</b><span>FRI + SAT</span><b>11 AM — 10 PM</b><span>SUN</span><b>12 PM — 7 PM</b><span>TUE + WED</span><b>CLOSED</b></div><div className="buttons"><a className="hot" href="https://maps.google.com/?q=1990+Central+Ave+St+Petersburg+FL+33712" target="_blank" rel="noreferrer">GET DIRECTIONS</a><a className="darkLine" href="tel:+17275068627">(727) 506-8627</a></div></div>
+<div className="visitCopy"><p className="kicker">COME THROUGH · 07</p><h2>THE HOUSE<br/>IS <em>HERE.</em></h2><p>1990 CENTRAL AVENUE<br/>ST. PETERSBURG, FL 33712</p><p className="visitLead">Come hungry. Stay long enough to look around. The mural, the color, the room and the food are all part of the same experience.</p><div className="hours"><span>MON + THU</span><b>11 AM — 7 PM</b><span>FRI + SAT</span><b>11 AM — 10 PM</b><span>SUN</span><b>12 PM — 7 PM</b><span>TUE + WED</span><b>CLOSED</b></div><div className="buttons"><a className="hot" href="https://maps.google.com/?q=1990+Central+Ave+St+Petersburg+FL+33712" target="_blank" rel="noreferrer">GET DIRECTIONS</a><a className="darkLine" href="tel:+17275068627">(727) 506-8627</a></div></div>
 </section>
 
 <footer className="footerV2"><div><Image src="/images/house-of-vegano-logo.png" alt="House of Vegano" width={88} height={88}/><strong>HOUSE OF VEGANO</strong><p>REDEFINING VEGAN.<br/>REIMAGINING SUSHI.</p></div><div><b>EXPLORE</b><a href="/menu">Menu</a><a href="#thalia">Thalia</a><a href="#catering">Catering</a><a href="#events">Events</a></div><div><b>VISIT</b><span>1990 Central Ave</span><span>St. Petersburg, FL 33712</span><a href="tel:+17275068627">(727) 506-8627</a><a href="mailto:hello@houseofvegano.com">hello@houseofvegano.com</a></div><small>PRIVATE CONCEPT PREVIEW · HOUSE OF VEGANO</small></footer>
