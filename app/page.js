@@ -36,7 +36,7 @@ return <main>
 <section className="dumplingHero">
 <Image src="/images/dumplings.png" alt="House of Vegano signature dumplings" fill sizes="100vw"/>
 <div className="dumplingShade"/>
-<div className="dumplingWords"><p className="kicker">02 · HOUSE OBSESSION</p><h2>THE<br/><em>DUMPLINGS.</em></h2><p>Soft. Tender. Rich. Sweet. Savory.</p><blockquote>Some dishes need an explanation.<br/>These need another order.</blockquote></div>
+<div className="dumplingWords"><p className="kicker">02 · HOUSE OBSESSION</p><h2>THE<br/><em>DUMPLINGS.</em></h2><p>Soft. Tender. Rich. Sweet. Savory.</p><blockquote>Some dishes need an explanation.<br/>These need another order.</blockquote></div><aside className="dumplingReview"><div className="reviewStars">★★★★★</div><p>“Just had the best dumplings ever. Who knew they were vegan? If this is what vegan food is really about, I'm in!!!”</p><p>“Thalia really has created something special. Wow wow wow. 👌”</p><strong>GREGGORY BUTLER</strong><span>GOOGLE REVIEW</span><a href="https://www.google.com/search?q=House+of+Vegano+1990+Central+Ave+St+Petersburg+FL+reviews" target="_blank" rel="noreferrer">READ GOOGLE REVIEWS →</a></aside>
 <div className="sideNote">YOU WEREN’T READY FOR THESE</div>
 </section>
 
@@ -47,7 +47,7 @@ return <main>
 
 <section className="spread"><Image src="/images/sushi-platter-assortment.png" alt="House of Vegano sushi assortment" fill sizes="100vw"/><div><span>04 · BRING EVERYBODY</span><h2>ORDER<br/>TOO MUCH.</h2></div></section>
 
-<section className="houseMoment"><Image src="/images/restaurant-exterior-1990-central.png" alt="House of Vegano in St. Petersburg" fill sizes="100vw"/><div><span>WELCOME TO</span><h2>THE HOUSE.</h2><a href="/menu">EXPLORE THE MENU →</a></div></section><section id="visit" className="visit">
+<section className="houseMoment"><Image src="/images/mural-interior-hero.png" alt="House of Vegano interior mural in St. Petersburg" fill sizes="100vw"/><div><span>WELCOME TO</span><h2>THE HOUSE.</h2><a href="/menu">EXPLORE THE MENU →</a></div></section><section id="visit" className="visit">
 <div className="visitPhoto"><Image src="/images/restaurant-exterior-1990-central.png" alt="House of Vegano at 1990 Central Avenue" fill sizes="(max-width:800px) 100vw,55vw"/></div>
 <div className="visitCopy"><p className="kicker">05 · COME THROUGH</p><h2>YOUR TABLE<br/>IS <em>WAITING.</em></h2><p>1990 CENTRAL AVENUE<br/>ST. PETERSBURG, FLORIDA 33712</p><div className="buttons"><a className="hot" href="https://maps.google.com/?q=1990+Central+Ave+St+Petersburg+FL+33712" target="_blank" rel="noreferrer">GET DIRECTIONS</a><a className="darkLine" href="https://www.houseofvegano.com/" target="_blank" rel="noreferrer">MENU + ORDERING</a></div></div>
 </section>
