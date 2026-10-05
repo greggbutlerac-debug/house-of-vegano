@@ -14,7 +14,7 @@ export default function Home(){return <main>
 <a className="order" href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a>
 </header>
 
-<section id="top" className="hero heroV2"><div className="heroMotion" aria-hidden="true"><span className="motionWord m1">THALIA’S HOUSE</span><span className="motionWord m2">REIMAGINED</span><span className="motionWord m3">ST. PETE</span></div>
+<section id="top" className="hero heroV2"><div className="heroMuralIntro"><Image src="/images/mural-interior-hero.png" alt="House of Vegano mural with golden geometric details" fill priority sizes="100vw"/></div><div className="heroMotion" aria-hidden="true"><span className="motionWord m1">THALIA’S HOUSE</span><span className="motionWord m2">REIMAGINED</span><span className="motionWord m3">ST. PETE</span></div>
 <video className="houseHeroVideo" autoPlay loop muted playsInline poster="https://static.spotapps.co/website_images/ab_websites/109242_website/video_poster.jpg" aria-label="House of Vegano restaurant video">
 <source src="https://static.spotapps.co/website_videos/House%20Of%20Vegano_Vimeo720p30.mp4" type="video/mp4"/>
 </video>
