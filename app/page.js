@@ -42,7 +42,7 @@ export default function Home(){return <main>
 <aside className="dumplingReview"><div className="reviewStars">★★★★★</div><p>“Just had the best dumplings ever. Who knew they were vegan?”</p><p>“Thalia really has created something special. Wow wow wow.”</p><strong>GREGGORY BUTLER</strong><span>GOOGLE REVIEW</span></aside><a className="sectionCta" href="/menu/dumplings">ENTER THE DUMPLINGS →</a>
 </section>
 
-<section id="thalia" className="thaliaFeature">
+<section className="chapterBreak"><span>02</span><p>THE WOMAN<br/>BEHIND<br/><em>THE HOUSE.</em></p></section><section id="thalia" className="thaliaFeature">
 <div className="thaliaPortrait"><Image src="/images/thalia-portrait-greenery.png" alt="Chef Thalia Tatham" fill sizes="50vw"/></div>
 <div className="thaliaWords"><p className="kicker">THE CREATIVE FORCE · 02</p><h2>THALIA’S<br/><em>HOUSE.</em></h2><p className="bigQuote">“It’s amazing food that just happens to be vegan.”</p><p>House of Vegano is personal. The menu, the room, the color, the experimentation—everything carries the point of view of the woman who built it.</p><a href="#visit">COME EXPERIENCE IT →</a></div>
 </section>
@@ -64,7 +64,7 @@ export default function Home(){return <main>
 <div id="events" className="actionCard eventCard"><Image src="/images/dining-room-green-wall.png" alt="House of Vegano dining room" fill sizes="50vw"/><div><span>PARTIES + EVENTS</span><h2>YOUR<br/>OCCASION.</h2><p>Birthdays, gatherings, celebrations and nights worth making personal.</p><a href="/events">PLAN AN EVENT →</a></div></div>
 </section>
 
-<section className="love">
+<section className="housePulse"><div>HOUSE OF VEGANO</div><div>HOUSE OF VEGANO</div></section><section className="love">
 <p className="kicker">LOVE FOR THE HOUSE · 05</p><h2>PEOPLE<br/><em>REMEMBER.</em></h2>
 <div className="reviewGrid">{reviews.map(([q,n])=><blockquote key={n}><div>★★★★★</div><p>“{q}”</p><cite>{n}<br/>GOOGLE REVIEW</cite></blockquote>)}</div>
 </section>
