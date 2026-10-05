@@ -66,3 +66,15 @@
 @keyframes muralReveal{0%,62%{opacity:1;visibility:visible}100%{opacity:0;visibility:hidden}}
 @keyframes muralPush{0%{transform:scale(1.015)}100%{transform:scale(1.06)}}
 @media(prefers-reduced-motion:reduce){.heroMuralIntro{animation:none;opacity:1}.heroMuralIntro img{animation:none}}
+
+
+/* VIDEO FIRST — MURAL DIRECTLY BELOW */
+.heroMuralIntro{display:none!important}
+.muralAfterVideo{position:relative;height:100vh;min-height:720px;overflow:hidden;background:#050505}
+.muralAfterVideo>img{object-fit:cover;object-position:center}
+.muralAfterShade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.68) 0%,rgba(0,0,0,.12) 58%,rgba(0,0,0,.08) 100%);z-index:1}
+.muralAfterWords{position:absolute;left:7vw;bottom:8vh;z-index:2;color:#fff}
+.muralAfterWords span{display:block;color:#12c8c0;font-size:10px;font-weight:900;letter-spacing:.25em;margin-bottom:25px}
+.muralAfterWords strong{display:block;font-size:clamp(74px,10vw,155px);line-height:.72;letter-spacing:-.07em}
+.muralAfterWords em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
+@media(max-width:760px){.muralAfterVideo{height:78vh;min-height:580px}.muralAfterWords{left:22px;bottom:50px}.muralAfterWords strong{font-size:58px}}
