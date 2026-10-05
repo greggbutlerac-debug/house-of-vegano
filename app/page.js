@@ -1,0 +1,15 @@
+const dishes=[
+["THE BURG","Lion's mane, king oyster, vegan lobstah, torched avocado, spicy mayo, sriracha + eel sauce."],
+["ADRIANA ‘VEGANO’ SPARKLE II","A theatrical signature roll finished with house-made toona tartare and 24-karat gold sparkle."],
+["SMOKED SALMON NIGIRI","Vegan smoked salmon, spicy mayo, eel sauce, torched and finished with scallions."]
+];
+export default function Home(){return <main>
+<nav><a className="brand" href="#">HOUSE OF VEGANO</a><div className="navlinks"><a href="#menu">MENU</a><a href="#story">OUR STORY</a><a href="#visit">VISIT</a></div><a className="order" href="https://www.houseofvegano.com/" target="_blank">ORDER NOW</a></nav>
+<section className="hero"><div className="eyebrow">ST. PETERSBURG · FLORIDA</div><h1>REDEFINING<br/><i>VEGAN.</i><br/>REIMAGINING<br/><i>SUSHI.</i></h1><p>Plant-based sushi without compromise. Bold flavor, beautiful craft, and a house all its own.</p><div className="actions"><a className="primary" href="#menu">EXPLORE THE MENU</a><a className="ghost" href="#visit">VISIT THE HOUSE</a></div><div className="stamp">HOV<br/><span>ST. PETE</span></div></section>
+<section className="manifesto"><span>01 · THE FOOD</span><h2>VEGAN<br/>ISN'T THE<br/><em>POINT.</em></h2><p>Come because it's vegan.<br/>Come back because it's good.</p></section>
+<section id="menu" className="menu"><div className="sectionhead"><span>02 · SIGNATURES</span><h2>THIS IS NOT<br/>CUCUMBER &<br/>AVOCADO.</h2></div><div className="dishgrid">{dishes.map((d,i)=><article key={d[0]}><div className={"dishart art"+i}><b>{String(i+1).padStart(2,"0")}</b><span>HOUSE<br/>SIGNATURE</span></div><h3>{d[0]}</h3><p>{d[1]}</p></article>)}</div></section>
+<section id="story" className="story"><div className="storymark">THALIA</div><div><span>03 · THE WOMAN BEHIND THE HOUSE</span><h2>SHE DIDN'T SET OUT TO MAKE VEGAN FOOD <em>IMITATE</em> SUSHI.</h2><p>She set out to create food good enough that nobody cared what was missing. House of Vegano is Chef Thalia Tatham's creative world expressed through food—unexpected, expressive and unmistakably St. Pete.</p><a href="#visit">DISCOVER THE STORY →</a></div></section>
+<section id="visit" className="visit"><span>04 · COME THROUGH</span><h2>YOUR TABLE<br/>IS WAITING.</h2><p>1990 CENTRAL AVENUE<br/>ST. PETERSBURG, FLORIDA</p><div className="actions"><a className="primary" href="https://maps.google.com/?q=1990+Central+Ave+St+Petersburg+FL" target="_blank">GET DIRECTIONS</a><a className="ghost" href="https://www.houseofvegano.com/" target="_blank">CURRENT SITE + ORDERING</a></div></section>
+<footer><b>HOUSE OF VEGANO</b><span>PLANT-BASED · ST. PETE</span><span>CONCEPT PREVIEW</span></footer>
+<a className="mobileOrder" href="https://www.houseofvegano.com/" target="_blank">ORDER NOW</a>
+</main>}
