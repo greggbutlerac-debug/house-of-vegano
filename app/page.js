@@ -49,7 +49,18 @@ export default function Home(){return <main>
 
 <section className="chapterBreak"><span>02</span><p>THE WOMAN<br/>BEHIND<br/><em>THE HOUSE.</em></p></section><section id="thalia" className="thaliaFeature">
 <div className="thaliaPortrait"><img className="thaliaPortraitImage" src="https://raw.githubusercontent.com/greggbutlerac-debug/house-of-vegano/main/thalia-portrait-new.png" alt="Chef Thalia Tatham"/></div>
-<div className="thaliaWords"><p className="kicker">THE CREATIVE FORCE · 02</p><h2>THALIA’S<br/><em>HOUSE.</em></h2><p className="bigQuote">“It’s amazing food that just happens to be vegan.”</p><p>House of Vegano is personal. The menu, the room, the color and the experimentation all carry Thalia’s point of view.</p><p>That is what makes the restaurant feel different: it is not a concept assembled by committee. It feels authored. The food is expressive, the room has personality, and the experience is meant to be remembered.</p><div className="thaliaPrinciples"><span><b>01</b> FOOD FIRST.</span><span><b>02</b> MAKE IT BEAUTIFUL.</span><span><b>03</b> KEEP EXPERIMENTING.</span></div><a href="#visit">COME EXPERIENCE IT →</a></div>
+<div className="thaliaWords"><p className="kicker">THE CREATIVE FORCE · 02</p><h2>THALIA’S<br/><em>VISION.</em></h2><p className="bigQuote">“Our mission is to make plant-based sushi not just an alternative, but a destination.”</p><p>House of Vegano is reimagining sushi and redefining what plant-based cuisine can be on a global stage. Rooted in St. Petersburg, Florida, the flagship is the heartbeat of a vision that reaches far beyond the Gulf.</p><p>With planned locations in New York, Los Angeles and London, Thalia is building toward a future where creativity, sustainability and culture meet at the table. Beyond the restaurants, the vision extends into a retail line of signature ramen kits, dumplings and sauces designed to bring the House of Vegano experience into homes around the world.</p><p className="thaliaClosing">Bold. Elegant. Undeniably amazing.</p><div className="thaliaPrinciples"><span><b>01</b> REIMAGINE SUSHI.</span><span><b>02</b> BUILD GLOBALLY.</span><span><b>03</b> BRING THE HOUSE HOME.</span></div><a href="#visit">EXPERIENCE THE FLAGSHIP →</a></div>
+</section>
+
+<section className="globalVision">
+  <div className="globalVisionIntro"><p className="kicker">FROM ST. PETE TO THE WORLD · 03</p><h2>A HOUSE<br/>WITHOUT<br/><em>BORDERS.</em></h2><p>St. Petersburg is the beginning—not the boundary. House of Vegano is being shaped as a restaurant, a product line and a global point of view on what plant-based cuisine can become.</p></div>
+  <div className="globalVisionGrid">
+    <article><span>NOW</span><strong>ST. PETERSBURG</strong><p>The flagship. The heartbeat. Where the House is being built in public.</p></article>
+    <article><span>PLANNED</span><strong>NEW YORK</strong><p>A future House in one of the world’s defining food cities.</p></article>
+    <article><span>PLANNED</span><strong>LOS ANGELES</strong><p>Culture, creativity and plant-based dining at global scale.</p></article>
+    <article><span>PLANNED</span><strong>LONDON</strong><p>A transatlantic expression of the House of Vegano vision.</p></article>
+  </div>
+  <div className="globalVisionRetail"><span>BEYOND THE RESTAURANT</span><h3>RAMEN KITS · DUMPLINGS · SAUCES</h3><p>Signature products designed to bring the House of Vegano experience into homes around the world.</p></div>
 </section>
 
 <section className="menuUniverse">
