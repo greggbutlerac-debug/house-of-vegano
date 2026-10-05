@@ -92,3 +92,5 @@
 .houseVideoMomentB>div{left:auto;right:6vw;text-align:right}
 .houseVideoMomentB strong em{color:#20c9bf}
 @media(max-width:760px){.houseVideoMoment{min-height:68vh}.houseVideoMoment>div,.houseVideoMomentB>div{left:22px;right:22px;bottom:44px;text-align:left}.houseVideoMoment strong{font-size:52px}}
+
+.officialPhoto{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover}
