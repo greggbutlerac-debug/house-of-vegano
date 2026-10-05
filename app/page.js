@@ -47,7 +47,7 @@ export default function Home(){return <main>
 </section>
 
 <section className="chapterBreak"><span>02</span><p>THE WOMAN<br/>BEHIND<br/><em>THE HOUSE.</em></p></section><section id="thalia" className="thaliaFeature">
-<div className="thaliaPortrait"><Image src="/images/thalia-portrait-greenery.png" alt="Chef Thalia Tatham" fill sizes="50vw"/></div>
+<div className="thaliaPortrait"><img className="thaliaPortraitImage" src="https://raw.githubusercontent.com/greggbutlerac-debug/house-of-vegano/main/thalia-portrait-new.png" alt="Chef Thalia Tatham"/></div>
 <div className="thaliaWords"><p className="kicker">THE CREATIVE FORCE · 02</p><h2>THALIA’S<br/><em>HOUSE.</em></h2><p className="bigQuote">“It’s amazing food that just happens to be vegan.”</p><p>House of Vegano is personal. The menu, the room, the color, the experimentation—everything carries the point of view of the woman who built it.</p><a href="#visit">COME EXPERIENCE IT →</a></div>
 </section>
 
