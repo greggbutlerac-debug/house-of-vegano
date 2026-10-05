@@ -136,3 +136,19 @@
   .flavorRail,.thaliaPrinciples,.testKitchenTags,.actionDetails{gap:6px}
   .loveLead,.universeLead,.visitLead,.testKitchenExtra{font-size:18px}
 }
+
+.thaliaClosing{font-family:Georgia,serif;font-size:clamp(22px,2vw,30px)!important;font-style:italic;margin-top:24px}
+.globalVision{background:#08100f;color:#f4eadb;padding:8vw 6vw;display:grid;grid-template-columns:.8fr 1.2fr;gap:6vw}
+.globalVisionIntro h2{font-size:clamp(72px,9vw,145px);line-height:.7;letter-spacing:-.075em;margin:28px 0}
+.globalVisionIntro h2 em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
+.globalVisionIntro>p:last-child{font-family:Georgia,serif;font-size:20px;line-height:1.55;max-width:500px}
+.globalVisionGrid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #ffffff44;border-left:1px solid #ffffff44}
+.globalVisionGrid article{padding:34px;border-right:1px solid #ffffff44;border-bottom:1px solid #ffffff44;min-height:230px;display:flex;flex-direction:column;justify-content:flex-end}
+.globalVisionGrid span{font-size:9px;letter-spacing:.2em;color:#16b8b0;font-weight:900;margin-bottom:auto}
+.globalVisionGrid strong{font-size:clamp(25px,2.8vw,44px);line-height:.95;letter-spacing:-.04em}
+.globalVisionGrid p{font-family:Georgia,serif;line-height:1.45;color:#f4eadbcc}
+.globalVisionRetail{grid-column:1/-1;margin-top:1vw;border-top:1px solid #ffffff44;padding-top:40px;display:grid;grid-template-columns:.4fr 1fr 1fr;gap:30px;align-items:start}
+.globalVisionRetail>span{font-size:9px;letter-spacing:.2em;color:#ef2c85;font-weight:900}
+.globalVisionRetail h3{font-size:clamp(30px,4vw,60px);line-height:.95;margin:0;letter-spacing:-.04em}
+.globalVisionRetail p{font-family:Georgia,serif;font-size:18px;line-height:1.5;margin:0}
+@media(max-width:760px){.globalVision{grid-template-columns:1fr;padding:80px 22px}.globalVisionIntro h2{font-size:62px}.globalVisionGrid{grid-template-columns:1fr}.globalVisionGrid article{min-height:190px;padding:26px}.globalVisionRetail{grid-template-columns:1fr;gap:18px;margin-top:30px}}
