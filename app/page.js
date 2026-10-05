@@ -25,7 +25,7 @@ export default function Home(){return <main>
 
 <section className="muralAfterVideo"><img src="https://raw.githubusercontent.com/greggbutlerac-debug/house-of-vegano/main/IMG_20261005_160343.jpg" alt="House of Vegano dining room and Thalia mural at 1990 Central Avenue"/><div className="muralAfterShade"/><div className="muralAfterWords"><span>1990 CENTRAL AVENUE · ST. PETERSBURG</span><strong>WELCOME<br/>TO <em>THE HOUSE.</em></strong></div></section>
 
-<section className="houseVideoMoment houseVideoMomentA"><video autoPlay loop muted playsInline src="/videos/4435.mp4" aria-label="House of Vegano atmosphere and food video"></video><div><span>HOUSE IN MOTION · 01</span><strong>THE FOOD.<br/>THE ROOM.<br/><em>THE ENERGY.</em></strong></div></section><section className="motionInterlude"><div className="motionFrame"><Image src="/images/signature-roll-closeup.png" alt="House of Vegano signature sushi" fill sizes="100vw"/></div><div className="motionType"><span>01</span><strong>COLOR.</strong><strong>TEXTURE.</strong><strong>THALIA.</strong></div></section><section className="marquee"><div>REDEFINING VEGAN · REIMAGINING SUSHI · AMAZING FOOD THAT JUST HAPPENS TO BE VEGAN · </div></section>
+<section className="houseVideoMoment houseVideoMomentA"><video autoPlay loop muted playsInline src="/videos/4435.mp4" aria-label="House of Vegano atmosphere and food video"></video><div><span>HOUSE IN MOTION · 01</span><strong>THE FOOD.<br/>THE ROOM.<br/><em>THE ENERGY.</em></strong></div></section><section className="motionInterlude"><div className="motionFrame"><img className="officialPhoto" src="https://static.spotapps.co/spots/e3/a4cf0cbd0545be875e5f25a082fa24/full" alt="House of Vegano Still I Rise roll"/></div><div className="motionType"><span>01</span><strong>COLOR.</strong><strong>TEXTURE.</strong><strong>THALIA.</strong></div></section><section className="marquee"><div>REDEFINING VEGAN · REIMAGINING SUSHI · AMAZING FOOD THAT JUST HAPPENS TO BE VEGAN · </div></section>
 
 <section className="manifesto">
 <p className="kicker">HOUSE OF VEGANO · EST. BY THALIA TATHAM</p>
@@ -34,13 +34,13 @@ export default function Home(){return <main>
 </section>
 
 <section className="editorialGrid">
-<a href="/menu/rolls" className="edTall"><figure><Image src="/images/gold-signature-roll.png" alt="House of Vegano signature roll" fill sizes="50vw"/><figcaption>SIGNATURE ROLLS · BUILT DIFFERENT</figcaption></figure></a>
-<a href="/menu/ramen"><figure><Image src="/images/ramen-house.png" alt="House of Vegano ramen" fill sizes="50vw"/><figcaption>RAMEN · DEEP COMFORT</figcaption></figure></a>
-<a href="/menu/poke-bowl"><figure><Image src="/images/poke-bowl.png" alt="House of Vegano poke bowl" fill sizes="50vw"/><figcaption>POKE · THE HOUSE WAY</figcaption></figure></a>
+<a href="/menu/rolls" className="edTall"><figure><img className="officialPhoto" src="https://static.spotapps.co/spots/5e/2c1afb6a71456cae33a86586a70aa7/full" alt="House of Vegano Adriana Vegano Sparkle II roll"/><figcaption>SIGNATURE ROLLS · BUILT DIFFERENT</figcaption></figure></a>
+<a href="/menu/ramen"><figure><img className="officialPhoto" src="https://static.spotapps.co/spots/6d/62cd163c7d4dc8b62aadd05bf3926f/full" alt="House of Vegano Tom Kha ramen"/><figcaption>RAMEN · DEEP COMFORT</figcaption></figure></a>
+<a href="/menu/poke-bowl"><figure><img className="officialPhoto" src="https://static.spotapps.co/spots/c9/8f265be6d64e4fa455a6e9421a0dd4/full" alt="House of Vegano assortment of dishes"/><figcaption>POKE · THE HOUSE WAY</figcaption></figure></a>
 </section>
 
 <section className="dumplingHero dumplingV2" id="dumplings">
-<Image src="/images/signature-dumplings.png" alt="House of Vegano signature dumplings" fill sizes="100vw"/>
+<img className="officialPhoto" src="https://static.spotapps.co/spots/22/58ca1f2ae243adbe7beef55769878a/full" alt="House of Vegano dumplings"/>
 <div className="dumplingShade"/>
 <div className="dumplingWords"><p className="kicker">HOUSE OBSESSION · 01</p><h2>THE<br/><em>DUMPLINGS.</em></h2><p>Soft. Tender. Rich. Sweet. Savory.</p><blockquote>Some dishes need an explanation.<br/>These need another order.</blockquote></div>
 <aside className="dumplingReview"><div className="reviewStars">★★★★★</div><p>“Just had the best dumplings ever. Who knew they were vegan?”</p><p>“Thalia really has created something special. Wow wow wow.”</p><strong>GREGGORY BUTLER</strong><span>GOOGLE REVIEW</span></aside><a className="sectionCta" href="/menu/dumplings">ENTER THE DUMPLINGS →</a>
@@ -64,8 +64,8 @@ export default function Home(){return <main>
 </section>
 
 <section id="catering" className="splitAction">
-<div className="actionCard cateringCard"><Image src="/images/sushi-kraft-trays.png" alt="House of Vegano catering spread" fill sizes="50vw"/><div><span>CATERING</span><h2>BRING<br/>THE HOUSE.</h2><p>Make the table the part everyone remembers.</p><a href="/catering">START A CATERING CONVERSATION →</a></div></div>
-<div id="events" className="actionCard eventCard"><Image src="/images/dining-room-green-wall.png" alt="House of Vegano dining room" fill sizes="50vw"/><div><span>PARTIES + EVENTS</span><h2>YOUR<br/>OCCASION.</h2><p>Birthdays, gatherings, celebrations and nights worth making personal.</p><a href="/events">PLAN AN EVENT →</a></div></div>
+<div className="actionCard cateringCard"><img className="officialPhoto" src="https://static.spotapps.co/spots/ba/8052955df8400daceafb22e25c7503/full" alt="House of Vegano assorted sushi rolls"/><div><span>CATERING</span><h2>BRING<br/>THE HOUSE.</h2><p>Make the table the part everyone remembers.</p><a href="/catering">START A CATERING CONVERSATION →</a></div></div>
+<div id="events" className="actionCard eventCard"><img className="officialPhoto" src="https://static.spotapps.co/spots/ab/5798a256de415cbc113a51d04b88d0/full" alt="House of Vegano interior seating"/><div><span>PARTIES + EVENTS</span><h2>YOUR<br/>OCCASION.</h2><p>Birthdays, gatherings, celebrations and nights worth making personal.</p><a href="/events">PLAN AN EVENT →</a></div></div>
 </section>
 
 <section className="houseVideoMoment houseVideoMomentB"><video autoPlay loop muted playsInline src="/videos/4437.mp4" aria-label="House of Vegano restaurant experience video"></video><div><span>HOUSE IN MOTION · 02</span><strong>THIS IS<br/><em>THALIA'S HOUSE.</em></strong></div></section><section className="housePulse"><div>HOUSE OF VEGANO</div><div>HOUSE OF VEGANO</div></section><section className="love">
@@ -73,7 +73,7 @@ export default function Home(){return <main>
 <div className="reviewGrid">{reviews.map(([q,n])=><blockquote key={n}><div>★★★★★</div><p>“{q}”</p><cite>{n}<br/>GOOGLE REVIEW</cite></blockquote>)}</div>
 </section>
 
-<section className="finalFood"><Image src="/images/sushi-table-spread.png" alt="House of Vegano table spread" fill sizes="100vw"/><div><p>ONE TABLE.<br/><em>ORDER TOO MUCH.</em></p><a href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a></div></section>
+<section className="finalFood"><img className="officialPhoto" src="https://static.spotapps.co/spots/43/b7fab7b2ec420e90c7db99b2b78da5/full" alt="House of Vegano Palms and Rainbow rolls"/><div><p>ONE TABLE.<br/><em>ORDER TOO MUCH.</em></p><a href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a></div></section>
 
 <section id="visit" className="visit visitV2">
 <div className="visitPhoto"><Image src="/images/restaurant-exterior-1990-central.png" alt="House of Vegano at 1990 Central Avenue" fill sizes="55vw"/></div>
