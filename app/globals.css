@@ -280,3 +280,9 @@
   .manifestoSideDeep{padding-top:55px}
   .manifestoSideDeep h2{font-size:58px!important}
 }
+
+/* FOOD CATEGORY CTAS */
+.foodCta{display:inline-flex;align-items:center;margin-top:14px;padding:11px 14px;border:1px solid rgba(255,255,255,.75);font-size:9px!important;line-height:1!important;letter-spacing:.14em!important;font-weight:900!important;background:rgba(0,0,0,.24);backdrop-filter:blur(8px);transition:background .25s ease,color .25s ease,transform .25s ease}
+.editorialGrid>a:hover .foodCta{background:#16b8b0;color:#071110;border-color:#16b8b0;transform:translateY(-2px)}
+.universeCta{display:inline-block;margin-top:32px;border:1px solid currentColor;padding:13px 16px;font-size:9px;font-weight:900;letter-spacing:.15em}
+@media(max-width:760px){.foodCta{margin-top:10px}.universeCta{margin-top:24px}}
