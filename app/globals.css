@@ -50,3 +50,11 @@
 
 /* TEST KITCHEN — THALIA'S EXPERIMENTAL ROOM */
 .testEditorial{min-height:100vh;display:grid;grid-template-columns:1.08fr .92fr;background:#11b7ae;color:#07100f}.testPortrait{position:relative;min-height:100vh;overflow:hidden}.testPortrait img{object-position:center}.testWords{padding:7vw;display:flex;flex-direction:column;justify-content:center}.testWords span{font-size:9px;font-weight:900;letter-spacing:.24em}.testWords h2{font-size:clamp(80px,10vw,155px);line-height:.68;letter-spacing:-.08em;margin:35px 0}.testWords h2 em,.testExperiment em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}.testWords p{font-family:Georgia,serif;font-size:21px;line-height:1.55;max-width:430px}.testExperiment{height:90vh;position:relative;overflow:hidden;background:#050505}.testExperiment:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#000d,#0002)}.testExperiment>div{position:absolute;z-index:2;left:6vw;top:50%;transform:translateY(-50%)}.testExperiment small{display:block;font-size:9px;font-weight:900;letter-spacing:.25em;margin-bottom:35px}.testExperiment strong{display:block;font-size:clamp(75px,10vw,155px);line-height:.68;letter-spacing:-.08em}.testExperiment img{object-position:center}@media(max-width:760px){.testEditorial{grid-template-columns:1fr}.testPortrait{min-height:70vh}.testWords{padding:80px 22px}.testWords h2{font-size:65px}.testExperiment{height:72vh}.testExperiment>div{left:22px}.testExperiment strong{font-size:58px}}
+
+
+/* ORIGINAL HOUSE OF VEGANO COVER VIDEO */
+.houseHeroVideo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0;background:#050505}
+.heroV2 .v2Shade,.heroV2 .heroCopy,.heroV2 .heroRail,.heroV2 .heroMotion{position:absolute}
+.heroV2 .v2Shade{z-index:1}.heroV2 .heroMotion,.heroV2 .heroCopy{z-index:2}.heroV2 .heroRail{z-index:3}
+@media(max-width:760px){.houseHeroVideo{object-position:center center}}
+@media(prefers-reduced-motion:reduce){.houseHeroVideo{display:none}.heroV2{background:url("https://static.spotapps.co/website_images/ab_websites/109242_website/video_poster.jpg") center/cover no-repeat}}
