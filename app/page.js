@@ -16,7 +16,7 @@ export default function Home(){return <main>
 
 <section id="top" className="hero heroV2"><div className="heroMotion" aria-hidden="true"><span className="motionWord m1">THALIA’S HOUSE</span><span className="motionWord m2">REIMAGINED</span><span className="motionWord m3">ST. PETE</span></div>
 <video className="houseHeroVideo" autoPlay loop muted playsInline poster="https://static.spotapps.co/website_images/ab_websites/109242_website/video_poster.jpg" aria-label="House of Vegano restaurant video">
-<source src="https://static.spotapps.co/website_videos/House%20Of%20Vegano_Vimeo720p30.mp4" type="video/mp4"/>
+<source src="/videos/4438.mp4" type="video/mp4"/>
 </video>
 <div className="shade v2Shade"/>
 <div className="heroCopy v2Copy"><p className="kicker">ST. PETERSBURG · FLORIDA</p><h1>WELCOME<br/>TO <em>THE HOUSE.</em></h1><p className="lead">Thalia Tatham is redefining vegan and reimagining sushi—one unforgettable table at a time.</p><div className="buttons"><a className="hot" href={orderUrl} target="_blank" rel="noreferrer">ORDER THE HOUSE</a><a className="line" href="/menu">EXPLORE THE MENU</a></div></div>
@@ -25,7 +25,7 @@ export default function Home(){return <main>
 
 <section className="muralAfterVideo"><Image src="/images/mural-interior-hero.png" alt="House of Vegano mural with golden geometric details" fill priority sizes="100vw"/><div className="muralAfterShade"/><div className="muralAfterWords"><span>HOUSE OF VEGANO · ST. PETE</span><strong>WELCOME<br/>TO <em>THE HOUSE.</em></strong></div></section>
 
-<section className="motionInterlude"><div className="motionFrame"><Image src="/images/signature-roll-closeup.png" alt="House of Vegano signature sushi" fill sizes="100vw"/></div><div className="motionType"><span>01</span><strong>COLOR.</strong><strong>TEXTURE.</strong><strong>THALIA.</strong></div></section><section className="marquee"><div>REDEFINING VEGAN · REIMAGINING SUSHI · AMAZING FOOD THAT JUST HAPPENS TO BE VEGAN · </div></section>
+<section className="houseVideoMoment houseVideoMomentA"><video autoPlay loop muted playsInline src="/videos/4435.mp4" aria-label="House of Vegano atmosphere and food video"></video><div><span>HOUSE IN MOTION · 01</span><strong>THE FOOD.<br/>THE ROOM.<br/><em>THE ENERGY.</em></strong></div></section><section className="motionInterlude"><div className="motionFrame"><Image src="/images/signature-roll-closeup.png" alt="House of Vegano signature sushi" fill sizes="100vw"/></div><div className="motionType"><span>01</span><strong>COLOR.</strong><strong>TEXTURE.</strong><strong>THALIA.</strong></div></section><section className="marquee"><div>REDEFINING VEGAN · REIMAGINING SUSHI · AMAZING FOOD THAT JUST HAPPENS TO BE VEGAN · </div></section>
 
 <section className="manifesto">
 <p className="kicker">HOUSE OF VEGANO · EST. BY THALIA TATHAM</p>
@@ -68,7 +68,7 @@ export default function Home(){return <main>
 <div id="events" className="actionCard eventCard"><Image src="/images/dining-room-green-wall.png" alt="House of Vegano dining room" fill sizes="50vw"/><div><span>PARTIES + EVENTS</span><h2>YOUR<br/>OCCASION.</h2><p>Birthdays, gatherings, celebrations and nights worth making personal.</p><a href="/events">PLAN AN EVENT →</a></div></div>
 </section>
 
-<section className="housePulse"><div>HOUSE OF VEGANO</div><div>HOUSE OF VEGANO</div></section><section className="love">
+<section className="houseVideoMoment houseVideoMomentB"><video autoPlay loop muted playsInline src="/videos/4437.mp4" aria-label="House of Vegano restaurant experience video"></video><div><span>HOUSE IN MOTION · 02</span><strong>THIS IS<br/><em>THALIA'S HOUSE.</em></strong></div></section><section className="housePulse"><div>HOUSE OF VEGANO</div><div>HOUSE OF VEGANO</div></section><section className="love">
 <p className="kicker">LOVE FOR THE HOUSE · 05</p><h2>PEOPLE<br/><em>REMEMBER.</em></h2>
 <div className="reviewGrid">{reviews.map(([q,n])=><blockquote key={n}><div>★★★★★</div><p>“{q}”</p><cite>{n}<br/>GOOGLE REVIEW</cite></blockquote>)}</div>
 </section>
