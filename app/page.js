@@ -50,7 +50,7 @@ export default function Home(){return <main>
 <section className="menuUniverse">
 <div className="universeIntro"><p className="kicker">DINNER AT THE HOUSE · 03</p><h2>WHAT ARE<br/>YOU <em>CRAVING?</em></h2></div>
 <div className="categoryWall">
-{["ROLLS","SIGNATURE SIDES","BEVERAGES","DESSERTS","RAMEN","DUMPLINGS","TEST KITCHEN","POKE BOWL","SPECIAL EVENT","LUNCH SPECIAL"].map((x,i)=><a href="/menu" key={x}><span>{String(i+1).padStart(2,"0")}</span>{x}<b>↗</b></a>)}
+{[["ROLLS","rolls"],["SIGNATURE SIDES","signature-sides"],["BEVERAGES","beverages"],["DESSERTS","desserts"],["RAMEN","ramen"],["DUMPLINGS","dumplings"],["TEST KITCHEN","test-kitchen"],["POKE BOWL","poke-bowl"],["SPECIAL EVENT","special-event"],["LUNCH SPECIAL","lunch-special"]].map(([x,slug],i)=><a href={"/menu/"+slug} key={x}><span>{String(i+1).padStart(2,"0")}</span>{x}<b>↗</b></a>)}
 </div>
 </section>
 
