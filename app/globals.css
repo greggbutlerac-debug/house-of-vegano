@@ -244,3 +244,10 @@
 .flagshipCallout{grid-template-columns:1fr;padding:80px 22px}
 .flagshipCallout strong{font-size:60px}
 }
+
+.hospitalityMoment{background:#f1e9dc;color:#111;padding:9vw 7vw;display:grid;grid-template-columns:.35fr 1fr .8fr;gap:4vw;align-items:end}
+.hospitalityMoment>span{font-size:9px;font-weight:900;letter-spacing:.22em;color:#07847e;align-self:start}
+.hospitalityMoment h2{font-size:clamp(72px,9vw,145px);line-height:.7;letter-spacing:-.075em;margin:0}
+.hospitalityMoment h2 em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
+.hospitalityMoment p{font-family:Georgia,serif;font-size:clamp(19px,1.8vw,27px);line-height:1.55;margin:0}
+@media(max-width:760px){.hospitalityMoment{grid-template-columns:1fr;padding:80px 22px}.hospitalityMoment h2{font-size:60px}}
