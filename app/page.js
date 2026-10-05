@@ -28,10 +28,18 @@ export default function Home(){return <main>
 
 <section className="houseVideoMoment houseVideoMomentA"><video autoPlay loop muted playsInline src="/videos/4435.mp4" aria-label="House of Vegano atmosphere and food video"></video><div><span>HOUSE IN MOTION · 01</span><strong>THE FOOD.<br/>THE ROOM.<br/><em>THE ENERGY.</em></strong></div></section><section className="motionInterlude"><div className="motionFrame"><img className="officialPhoto" src="https://static.spotapps.co/spots/e3/a4cf0cbd0545be875e5f25a082fa24/full" alt="House of Vegano Still I Rise roll"/></div><div className="motionType"><span>01</span><strong>COLOR.</strong><strong>TEXTURE.</strong><strong>THALIA.</strong></div></section><section className="marquee"><div>REDEFINING VEGAN · REIMAGINING SUSHI · AMAZING FOOD THAT JUST HAPPENS TO BE VEGAN · </div></section>
 
-<section className="manifesto">
-<p className="kicker">HOUSE OF VEGANO · EST. BY THALIA TATHAM</p>
-<h2>NOT A VEGAN<br/>VERSION OF<br/><em>ANYTHING.</em></h2>
-<div className="manifestoSide"><p className="manifestoLead">This is food with its own point of view: colorful, generous, unexpected and unmistakably Thalia.</p><div className="manifestoNotes"><span><b>01</b> BUILT FOR CRAVING, NOT COMPROMISE.</span><span><b>02</b> TEXTURE, HEAT, COLOR AND SAUCE DO THE TALKING.</span><span><b>03</b> PLANT-BASED IS THE MEDIUM. THE EXPERIENCE IS THE POINT.</span></div><a href="/menu">MEET THE MENU →</a></div>
+<section className="manifesto manifestoSplit">
+<div className="manifestoVisual">
+  <img src="https://static.spotapps.co/spots/8e/75c92c2ce74cc1b27b38c193a44dd0/full" alt="House of Vegano signature sushi"/>
+  <div className="manifestoVisualCaption"><span>THE HOUSE · SIGNATURE ROLL</span><p>Color, texture and contrast—built to be remembered.</p></div>
+</div>
+<div className="manifestoSide manifestoSideDeep">
+  <p className="kicker">HOUSE OF VEGANO · EST. BY THALIA TATHAM</p>
+  <h2>NOT A VEGAN<br/>VERSION OF<br/><em>ANYTHING.</em></h2>
+  <p className="manifestoLead">This is food with its own point of view: colorful, generous, unexpected and unmistakably Thalia.</p>
+  <div className="manifestoNotes"><span><b>01</b> BUILT FOR CRAVING, NOT COMPROMISE.</span><span><b>02</b> TEXTURE, HEAT, COLOR AND SAUCE DO THE TALKING.</span><span><b>03</b> PLANT-BASED IS THE MEDIUM. THE EXPERIENCE IS THE POINT.</span></div>
+  <a href="/menu">MEET THE MENU →</a>
+</div>
 </section>
 
 <section className="houseCode">
