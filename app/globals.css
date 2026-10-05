@@ -108,3 +108,31 @@
 .dishShowcase{position:relative;height:78vh;min-height:620px;overflow:hidden;background:#050505}
 .dishShowcase .heroDishSlider{position:absolute;inset:0}
 @media(max-width:760px){.dishShowcase{height:68vh;min-height:520px}}
+
+/* DEEPER HOMEPAGE STORYTELLING */
+.manifestoLead{font-size:clamp(22px,2.2vw,34px)!important;line-height:1.25!important}
+.manifestoNotes{display:grid;gap:16px;margin:34px 0 42px;border-top:1px solid currentColor;padding-top:22px}
+.manifestoNotes span{display:grid;grid-template-columns:42px 1fr;gap:10px;font-size:11px;font-weight:900;letter-spacing:.08em;line-height:1.35}
+.manifestoNotes b{font-family:Georgia,serif;font-weight:400}
+.editorialGrid figcaption{display:flex!important;flex-direction:column;align-items:flex-start;gap:8px;max-width:82%}
+.editorialGrid figcaption small{font-size:9px;letter-spacing:.2em;font-weight:900}
+.editorialGrid figcaption strong{font-size:clamp(22px,2.5vw,40px);line-height:.95;letter-spacing:-.04em}
+.editorialGrid figcaption span{font-family:Georgia,serif;font-size:15px;line-height:1.35;max-width:360px}
+.flavorRail,.thaliaPrinciples,.testKitchenTags,.actionDetails{display:flex;gap:8px;flex-wrap:wrap;margin-top:26px}
+.flavorRail span,.thaliaPrinciples span,.testKitchenTags span,.actionDetails b{border:1px solid currentColor;padding:9px 12px;font-size:9px;font-weight:900;letter-spacing:.12em}
+.thaliaPrinciples{margin:28px 0 36px}
+.thaliaPrinciples span{display:flex;gap:8px}
+.thaliaPrinciples b{font-family:Georgia,serif;font-weight:400}
+.universeLead,.loveLead,.visitLead,.testKitchenExtra{font-family:Georgia,serif;font-size:clamp(18px,1.5vw,23px);line-height:1.55;max-width:560px}
+.universeLead{margin:28px 0 0}
+.loveLead{margin:22px 0 45px}
+.visitLead{margin:22px 0 30px}
+.testKitchenExtra{margin-top:18px}
+.actionDetails{margin:24px 0 30px}
+@media(max-width:760px){
+  .manifestoNotes{margin-top:26px}
+  .editorialGrid figcaption{max-width:90%}
+  .editorialGrid figcaption span{font-size:14px}
+  .flavorRail,.thaliaPrinciples,.testKitchenTags,.actionDetails{gap:6px}
+  .loveLead,.universeLead,.visitLead,.testKitchenExtra{font-size:18px}
+}
