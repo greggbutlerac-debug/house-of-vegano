@@ -23,7 +23,7 @@ export default function Home(){return <main>
 <div className="heroRail"><span>VEGAN SUSHI</span><span>RAMEN</span><span>DUMPLINGS</span><span>ST. PETE</span></div>
 </section>
 
-<section className="muralAfterVideo"><Image src="/images/mural-interior-hero.png" alt="House of Vegano mural with golden geometric details" fill priority sizes="100vw"/><div className="muralAfterShade"/><div className="muralAfterWords"><span>HOUSE OF VEGANO · ST. PETE</span><strong>WELCOME<br/>TO <em>THE HOUSE.</em></strong></div></section>
+<section className="muralAfterVideo"><Image src="https://raw.githubusercontent.com/greggbutlerac-debug/house-of-vegano/main/IMG_20261005_160343.jpg" alt="House of Vegano dining room and Thalia mural at 1990 Central Avenue" fill priority sizes="100vw"/><div className="muralAfterShade"/><div className="muralAfterWords"><span>1990 CENTRAL AVENUE · ST. PETERSBURG</span><strong>WELCOME<br/>TO <em>THE HOUSE.</em></strong></div></section>
 
 <section className="houseVideoMoment houseVideoMomentA"><video autoPlay loop muted playsInline src="/videos/4435.mp4" aria-label="House of Vegano atmosphere and food video"></video><div><span>HOUSE IN MOTION · 01</span><strong>THE FOOD.<br/>THE ROOM.<br/><em>THE ENERGY.</em></strong></div></section><section className="motionInterlude"><div className="motionFrame"><Image src="/images/signature-roll-closeup.png" alt="House of Vegano signature sushi" fill sizes="100vw"/></div><div className="motionType"><span>01</span><strong>COLOR.</strong><strong>TEXTURE.</strong><strong>THALIA.</strong></div></section><section className="marquee"><div>REDEFINING VEGAN · REIMAGINING SUSHI · AMAZING FOOD THAT JUST HAPPENS TO BE VEGAN · </div></section>
 
