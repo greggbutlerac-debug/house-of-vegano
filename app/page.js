@@ -36,7 +36,7 @@ export default function Home(){return <main>
 </section>
 
 <section className="dumplingHero dumplingV2" id="dumplings">
-<Image src="/images/dumplings.png" alt="House of Vegano signature dumplings" fill sizes="100vw"/>
+<Image src="/images/signature-dumplings.png" alt="House of Vegano signature dumplings" fill sizes="100vw"/>
 <div className="dumplingShade"/>
 <div className="dumplingWords"><p className="kicker">HOUSE OBSESSION · 01</p><h2>THE<br/><em>DUMPLINGS.</em></h2><p>Soft. Tender. Rich. Sweet. Savory.</p><blockquote>Some dishes need an explanation.<br/>These need another order.</blockquote></div>
 <aside className="dumplingReview"><div className="reviewStars">★★★★★</div><p>“Just had the best dumplings ever. Who knew they were vegan?”</p><p>“Thalia really has created something special. Wow wow wow.”</p><strong>GREGGORY BUTLER</strong><span>GOOGLE REVIEW</span></aside><a className="sectionCta" href="/menu/dumplings">ENTER THE DUMPLINGS →</a>
