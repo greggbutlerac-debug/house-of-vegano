@@ -16,7 +16,9 @@ export default function Home(){return <main>
 </header>
 
 <section id="top" className="hero heroV2"><div className="heroMotion" aria-hidden="true"><span className="motionWord m1">THALIA’S HOUSE</span><span className="motionWord m2">REIMAGINED</span><span className="motionWord m3">ST. PETE</span></div>
-<HeroSlider/>
+<video className="houseHeroVideo" autoPlay loop muted playsInline poster="https://static.spotapps.co/website_images/ab_websites/109242_website/video_poster.jpg" aria-label="House of Vegano restaurant video">
+<source src="/videos/4438.mp4" type="video/mp4"/>
+</video>
 <div className="shade v2Shade"/>
 <div className="heroCopy v2Copy"><p className="kicker">ST. PETERSBURG · FLORIDA</p><h1>WELCOME<br/>TO <em>THE HOUSE.</em></h1><p className="lead">Thalia Tatham is redefining vegan and reimagining sushi—one unforgettable table at a time.</p><div className="buttons"><a className="hot" href={orderUrl} target="_blank" rel="noreferrer">ORDER THE HOUSE</a><a className="line" href="/menu">EXPLORE THE MENU</a></div></div>
 <div className="heroRail"><span>VEGAN SUSHI</span><span>RAMEN</span><span>DUMPLINGS</span><span>ST. PETE</span></div>
@@ -66,6 +68,8 @@ export default function Home(){return <main>
 <div className="actionCard cateringCard"><img className="officialPhoto" src="https://static.spotapps.co/spots/ba/8052955df8400daceafb22e25c7503/full" alt="House of Vegano assorted sushi rolls"/><div><span>CATERING</span><h2>BRING<br/>THE HOUSE.</h2><p>Make the table the part everyone remembers.</p><a href="/catering">START A CATERING CONVERSATION →</a></div></div>
 <div id="events" className="actionCard eventCard"><img className="officialPhoto" src="https://static.spotapps.co/spots/ab/5798a256de415cbc113a51d04b88d0/full" alt="House of Vegano interior seating"/><div><span>PARTIES + EVENTS</span><h2>YOUR<br/>OCCASION.</h2><p>Birthdays, gatherings, celebrations and nights worth making personal.</p><a href="/events">PLAN AN EVENT →</a></div></div>
 </section>
+
+<section className="dishShowcase"><HeroSlider/></section>
 
 <section className="houseVideoMoment houseVideoMomentB"><video autoPlay loop muted playsInline src="/videos/4437.mp4" aria-label="House of Vegano restaurant experience video"></video><div><span>HOUSE IN MOTION · 02</span><strong>THIS IS<br/><em>THALIA'S HOUSE.</em></strong></div></section><section className="housePulse"><div>HOUSE OF VEGANO</div><div>HOUSE OF VEGANO</div></section><section className="love">
 <p className="kicker">LOVE FOR THE HOUSE · 05</p><h2>PEOPLE<br/><em>REMEMBER.</em></h2>
