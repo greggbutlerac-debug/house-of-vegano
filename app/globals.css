@@ -261,3 +261,22 @@
 .rollsCards{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:#ffffff22}.rollsCards article{background:#0b0b0b;display:grid;grid-template-columns:1fr 1fr;min-height:520px}.rollsCards img{width:100%;height:100%;object-fit:cover}.rollsCards article>div{padding:38px;display:flex;flex-direction:column}.rollsCards span{font-family:Georgia,serif;color:#20c9bf}.rollsCards h3{font-size:clamp(28px,3vw,48px);line-height:.95;letter-spacing:-.04em;margin:auto 0 20px}.rollsCards p{font-family:Georgia,serif;line-height:1.45;color:#f4eadbcc}.rollsCards strong{margin-top:20px;font-size:8px;letter-spacing:.15em;color:#ef2c85}
 .rollsClose{background:#16b8b0;color:#071110;padding:10vw 7vw;text-align:center}.rollsClose>span{font-size:9px;font-weight:900;letter-spacing:.22em}.rollsClose h2{font-size:clamp(72px,10vw,155px);line-height:.7;letter-spacing:-.075em;margin:35px auto 45px}.rollsClose h2 em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}.rollsClose a{display:inline-block;border:1px solid currentColor;padding:15px 18px;font-size:9px;font-weight:900;letter-spacing:.15em}
 @media(max-width:760px){.rollsPhilosophy{grid-template-columns:1fr;padding:80px 22px}.rollsPhilosophy h2{font-size:60px}.rollsSignatures{padding:80px 22px}.rollsSignaturesIntro{grid-template-columns:1fr}.rollsSignaturesIntro h2{font-size:60px}.rollsCards{grid-template-columns:1fr}.rollsCards article{grid-template-columns:1fr;min-height:0}.rollsCards img{height:58vh}.rollsCards article>div{min-height:330px}.rollsClose{padding:90px 22px}.rollsClose h2{font-size:56px}}
+
+/* MANIFESTO SPLIT — IMAGE + STORY */
+.manifestoSplit{display:grid!important;grid-template-columns:1.55fr .75fr!important;gap:4vw!important;align-items:stretch!important;padding:5vw 5vw 7vw!important;min-height:100vh}
+.manifestoVisual{position:relative;min-height:78vh;overflow:hidden;background:#111}
+.manifestoVisual>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.manifestoVisual:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.72),transparent 45%)}
+.manifestoVisualCaption{position:absolute;z-index:2;left:34px;right:34px;bottom:32px;color:#fff}
+.manifestoVisualCaption span{font-size:9px;font-weight:900;letter-spacing:.2em}
+.manifestoVisualCaption p{font-family:Georgia,serif;font-size:20px;line-height:1.4;max-width:420px;margin:10px 0 0}
+.manifestoSideDeep{display:flex;flex-direction:column;justify-content:center}
+.manifestoSideDeep .kicker{margin-bottom:24px}
+.manifestoSideDeep h2{font-size:clamp(62px,6.7vw,108px)!important;line-height:.72!important;letter-spacing:-.065em!important;margin:0 0 34px!important}
+.manifestoSideDeep h2 em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
+@media(max-width:900px){
+  .manifestoSplit{grid-template-columns:1fr!important;padding:22px 22px 80px!important;min-height:0}
+  .manifestoVisual{min-height:62vh}
+  .manifestoSideDeep{padding-top:55px}
+  .manifestoSideDeep h2{font-size:58px!important}
+}
