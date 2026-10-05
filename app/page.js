@@ -30,16 +30,16 @@ export default function Home(){return <main>
 </section>
 
 <section className="editorialGrid">
-<figure className="edTall"><Image src="/images/gold-signature-roll.png" alt="House of Vegano signature roll" fill sizes="50vw"/><figcaption>SIGNATURE ROLLS · BUILT DIFFERENT</figcaption></figure>
-<figure><Image src="/images/ramen-house.png" alt="House of Vegano ramen" fill sizes="50vw"/><figcaption>RAMEN · DEEP COMFORT</figcaption></figure>
-<figure><Image src="/images/poke-bowl.png" alt="House of Vegano poke bowl" fill sizes="50vw"/><figcaption>POKE · THE HOUSE WAY</figcaption></figure>
+<a href="/menu/rolls" className="edTall"><figure><Image src="/images/gold-signature-roll.png" alt="House of Vegano signature roll" fill sizes="50vw"/><figcaption>SIGNATURE ROLLS · BUILT DIFFERENT</figcaption></figure></a>
+<a href="/menu/ramen"><figure><Image src="/images/ramen-house.png" alt="House of Vegano ramen" fill sizes="50vw"/><figcaption>RAMEN · DEEP COMFORT</figcaption></figure></a>
+<a href="/menu/poke-bowl"><figure><Image src="/images/poke-bowl.png" alt="House of Vegano poke bowl" fill sizes="50vw"/><figcaption>POKE · THE HOUSE WAY</figcaption></figure></a>
 </section>
 
-<section className="dumplingHero dumplingV2">
+<section className="dumplingHero dumplingV2" id="dumplings">
 <Image src="/images/dumplings.png" alt="House of Vegano signature dumplings" fill sizes="100vw"/>
 <div className="dumplingShade"/>
 <div className="dumplingWords"><p className="kicker">HOUSE OBSESSION · 01</p><h2>THE<br/><em>DUMPLINGS.</em></h2><p>Soft. Tender. Rich. Sweet. Savory.</p><blockquote>Some dishes need an explanation.<br/>These need another order.</blockquote></div>
-<aside className="dumplingReview"><div className="reviewStars">★★★★★</div><p>“Just had the best dumplings ever. Who knew they were vegan?”</p><p>“Thalia really has created something special. Wow wow wow.”</p><strong>GREGGORY BUTLER</strong><span>GOOGLE REVIEW</span></aside>
+<aside className="dumplingReview"><div className="reviewStars">★★★★★</div><p>“Just had the best dumplings ever. Who knew they were vegan?”</p><p>“Thalia really has created something special. Wow wow wow.”</p><strong>GREGGORY BUTLER</strong><span>GOOGLE REVIEW</span></aside><a className="sectionCta" href="/menu/dumplings">ENTER THE DUMPLINGS →</a>
 </section>
 
 <section id="thalia" className="thaliaFeature">
@@ -55,13 +55,13 @@ export default function Home(){return <main>
 </section>
 
 <section className="testKitchen">
-<div><p className="kicker">THE TEST KITCHEN · 04</p><h2>WHAT’S<br/><em>NEXT?</em></h2><p>Where Thalia experiments. Limited ideas, new obsessions and dishes that may never behave like permanent menu items.</p></div>
+<div><p className="kicker">THE TEST KITCHEN · 04</p><h2>WHAT’S<br/><em>NEXT?</em></h2><p>Where Thalia experiments. Limited ideas, new obsessions and dishes that may never behave like permanent menu items.</p><a className="sectionCta darkCta" href="/menu/test-kitchen">ENTER THE TEST KITCHEN →</a></div>
 <figure><Image src="/images/thalia-chef-platter.png" alt="Thalia with House of Vegano creations" fill sizes="55vw"/></figure>
 </section>
 
 <section id="catering" className="splitAction">
-<div className="actionCard cateringCard"><Image src="/images/sushi-kraft-trays.png" alt="House of Vegano catering spread" fill sizes="50vw"/><div><span>CATERING</span><h2>BRING<br/>THE HOUSE.</h2><p>Make the table the part everyone remembers.</p><a href="mailto:hello@houseofvegano.com?subject=House%20of%20Vegano%20Catering">START A CATERING CONVERSATION →</a></div></div>
-<div id="events" className="actionCard eventCard"><Image src="/images/dining-room-green-wall.png" alt="House of Vegano dining room" fill sizes="50vw"/><div><span>PARTIES + EVENTS</span><h2>YOUR<br/>OCCASION.</h2><p>Birthdays, gatherings, celebrations and nights worth making personal.</p><a href="mailto:hello@houseofvegano.com?subject=House%20of%20Vegano%20Private%20Event">PLAN AN EVENT →</a></div></div>
+<div className="actionCard cateringCard"><Image src="/images/sushi-kraft-trays.png" alt="House of Vegano catering spread" fill sizes="50vw"/><div><span>CATERING</span><h2>BRING<br/>THE HOUSE.</h2><p>Make the table the part everyone remembers.</p><a href="/catering">START A CATERING CONVERSATION →</a></div></div>
+<div id="events" className="actionCard eventCard"><Image src="/images/dining-room-green-wall.png" alt="House of Vegano dining room" fill sizes="50vw"/><div><span>PARTIES + EVENTS</span><h2>YOUR<br/>OCCASION.</h2><p>Birthdays, gatherings, celebrations and nights worth making personal.</p><a href="/events">PLAN AN EVENT →</a></div></div>
 </section>
 
 <section className="love">
