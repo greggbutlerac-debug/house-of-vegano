@@ -1,58 +1,81 @@
 import Image from "next/image";
 
-const gallery=[
-["sushi-board-signatures.png","House signatures"],
-["rainbow-roll-platter.png","Color, craft, flavor"],
-["sushi-table-spread.png","Made for the whole table"],
-["signature-roll-closeup.png","Not your standard roll"],
+const orderUrl="https://www.houseofvegano.com/";
+const reviews=[
+["THE DUMPLINGS WERE AMAZING TOO!","J_OKAYYY"],
+["EVERYTHING WAS FANTASTIC.","KAYA BEMLEY"],
+["SPICY TAHINI DUMPLINGS WERE 100% THE HIGHLIGHT.","MITCHELL BARNES"]
 ];
 
-export default function Home(){
-return <main>
-<header className="nav">
-<a className="brand" href="#top"><Image src="/images/house-of-vegano-logo.png" alt="House of Vegano" width={76} height={76}/><span>HOUSE OF VEGANO</span></a>
-<nav><a href="/menu">MENU</a><a href="#food">FOOD</a><a href="#story">THALIA</a><a href="#visit">VISIT</a></nav>
-<a className="order" href="https://www.houseofvegano.com/" target="_blank" rel="noreferrer">ORDER NOW</a>
+export default function Home(){return <main>
+<header className="nav navV2">
+<a className="brand" href="#top"><Image src="/images/house-of-vegano-logo.png" alt="House of Vegano" width={68} height={68}/><span>HOUSE OF VEGANO</span></a>
+<nav><a href="/menu">MENU</a><a href="#thalia">THALIA</a><a href="#catering">CATERING</a><a href="#events">EVENTS</a><a href="#visit">VISIT</a></nav>
+<a className="order" href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a>
 </header>
 
-<section id="top" className="hero">
-<Image src="/images/hero-sushi-restaurant.png" alt="House of Vegano sushi at the restaurant" fill priority sizes="100vw"/>
-<div className="shade"/>
-<div className="heroCopy"><p className="kicker">ST. PETERSBURG · FLORIDA</p><h1>REDEFINING<br/><em>VEGAN.</em><br/>REIMAGINING<br/><em>SUSHI.</em></h1><p className="lead">Come because it’s vegan. Come back because it’s unforgettable.</p><div className="buttons"><a className="hot" href="/menu">EXPLORE THE MENU</a><a className="line" href="#visit">VISIT 1990 CENTRAL</a></div></div>
-<div className="scroll">SCROLL TO TASTE ↓</div>
+<section id="top" className="hero heroV2">
+<Image src="/images/mural-interior-hero.png" alt="House of Vegano dining room and mural" fill priority sizes="100vw"/>
+<div className="shade v2Shade"/>
+<div className="heroCopy v2Copy"><p className="kicker">ST. PETERSBURG · FLORIDA</p><h1>WELCOME<br/>TO <em>THE HOUSE.</em></h1><p className="lead">Thalia Tatham is redefining vegan and reimagining sushi—one unforgettable table at a time.</p><div className="buttons"><a className="hot" href={orderUrl} target="_blank" rel="noreferrer">ORDER THE HOUSE</a><a className="line" href="/menu">EXPLORE THE MENU</a></div></div>
+<div className="heroRail"><span>VEGAN SUSHI</span><span>RAMEN</span><span>DUMPLINGS</span><span>ST. PETE</span></div>
 </section>
 
-<section className="menuCallout"><span>THE FULL HOUSE OF VEGANO MENU</span><h2>WHAT ARE<br/>YOU <em>CRAVING?</em></h2><p>Signature rolls. Dumplings. Ramen. Nigiri. Sweet finishes.</p><a href="/menu">SEE THE FULL MENU →</a></section><section className="statement"><p>PLANT-BASED DOESN’T<br/>MEAN <em>PLAYING IT SAFE.</em></p></section>
+<section className="marquee"><div>REDEFINING VEGAN · REIMAGINING SUSHI · AMAZING FOOD THAT JUST HAPPENS TO BE VEGAN · </div></section>
 
-<section id="food" className="foodIntro">
-<div><p className="kicker">01 · THE FOOD</p><h2>SUSHI WITH<br/><em>NOTHING</em><br/>TO PROVE.</h2></div>
-<div className="introPhoto"><Image src="/images/thalia-chef-platter.png" alt="Chef Thalia holding a House of Vegano sushi platter" fill sizes="(max-width:800px) 100vw,50vw"/></div>
+<section className="manifesto">
+<p className="kicker">HOUSE OF VEGANO · EST. BY THALIA TATHAM</p>
+<h2>NOT A VEGAN<br/>VERSION OF<br/><em>ANYTHING.</em></h2>
+<div className="manifestoSide"><p>This is food with its own point of view: colorful, generous, unexpected and unmistakably Thalia.</p><a href="/menu">MEET THE MENU →</a></div>
 </section>
 
-<section className="gallery">
-{gallery.map(([src,label],i)=><figure key={src} className={"g g"+i}><Image src={"/images/"+src} alt={label} fill sizes="(max-width:800px) 100vw,50vw"/><figcaption><span>0{i+1}</span>{label}</figcaption></figure>)}
+<section className="editorialGrid">
+<figure className="edTall"><Image src="/images/gold-signature-roll.png" alt="House of Vegano signature roll" fill sizes="50vw"/><figcaption>SIGNATURE ROLLS · BUILT DIFFERENT</figcaption></figure>
+<figure><Image src="/images/ramen-house.png" alt="House of Vegano ramen" fill sizes="50vw"/><figcaption>RAMEN · DEEP COMFORT</figcaption></figure>
+<figure><Image src="/images/poke-bowl.png" alt="House of Vegano poke bowl" fill sizes="50vw"/><figcaption>POKE · THE HOUSE WAY</figcaption></figure>
 </section>
 
-<section className="dumplingHero">
+<section className="dumplingHero dumplingV2">
 <Image src="/images/dumplings.png" alt="House of Vegano signature dumplings" fill sizes="100vw"/>
 <div className="dumplingShade"/>
-<div className="dumplingWords"><p className="kicker">02 · HOUSE OBSESSION</p><h2>THE<br/><em>DUMPLINGS.</em></h2><p>Soft. Tender. Rich. Sweet. Savory.</p><blockquote>Some dishes need an explanation.<br/>These need another order.</blockquote></div><aside className="dumplingReview"><div className="reviewStars">★★★★★</div><p>“Just had the best dumplings ever. Who knew they were vegan? If this is what vegan food is really about, I'm in!!!”</p><p>“Thalia really has created something special. Wow wow wow. 👌”</p><strong>GREGGORY BUTLER</strong><span>GOOGLE REVIEW</span><a href="https://www.google.com/search?q=House+of+Vegano+1990+Central+Ave+St+Petersburg+FL+reviews" target="_blank" rel="noreferrer">READ GOOGLE REVIEWS →</a></aside>
-<div className="sideNote">YOU WEREN’T READY FOR THESE</div>
+<div className="dumplingWords"><p className="kicker">HOUSE OBSESSION · 01</p><h2>THE<br/><em>DUMPLINGS.</em></h2><p>Soft. Tender. Rich. Sweet. Savory.</p><blockquote>Some dishes need an explanation.<br/>These need another order.</blockquote></div>
+<aside className="dumplingReview"><div className="reviewStars">★★★★★</div><p>“Just had the best dumplings ever. Who knew they were vegan?”</p><p>“Thalia really has created something special. Wow wow wow.”</p><strong>GREGGORY BUTLER</strong><span>GOOGLE REVIEW</span></aside>
 </section>
 
-<section id="story" className="story">
-<div className="portrait"><Image src="/images/thalia-portrait-greenery.png" alt="Chef Thalia Tatham at House of Vegano" fill sizes="(max-width:800px) 100vw,50vw"/></div>
-<div className="storyCopy"><p className="kicker">03 · THE WOMAN BEHIND THE HOUSE</p><h2>THIS IS<br/><em>THALIA’S</em><br/>HOUSE.</h2><p>House of Vegano is Chef Thalia Tatham’s creative world expressed through food—bold, unexpected, personal and unmistakably St. Pete.</p><p className="quote">“It’s amazing food that just happens to be vegan.”</p></div>
+<section id="thalia" className="thaliaFeature">
+<div className="thaliaPortrait"><Image src="/images/thalia-portrait-greenery.png" alt="Chef Thalia Tatham" fill sizes="50vw"/></div>
+<div className="thaliaWords"><p className="kicker">THE CREATIVE FORCE · 02</p><h2>THALIA’S<br/><em>HOUSE.</em></h2><p className="bigQuote">“It’s amazing food that just happens to be vegan.”</p><p>House of Vegano is personal. The menu, the room, the color, the experimentation—everything carries the point of view of the woman who built it.</p><a href="#visit">COME EXPERIENCE IT →</a></div>
 </section>
 
-<section className="spread"><Image src="/images/sushi-kraft-trays.png" alt="A colorful spread of House of Vegano sushi" fill sizes="100vw"/><div><span>04 · BRING EVERYBODY</span><h2>ORDER<br/>TOO MUCH.</h2></div></section>
-<section className="houseFoodGrid"><figure><Image src="/images/ramen-house.png" alt="House of Vegano ramen" fill sizes="(max-width:760px) 100vw,50vw"/><figcaption>RAMEN · COMFORT WITH A POINT OF VIEW</figcaption></figure><figure><Image src="/images/gold-signature-roll.png" alt="House of Vegano signature sushi roll" fill sizes="(max-width:760px) 100vw,50vw"/><figcaption>SIGNATURE ROLLS · BUILT DIFFERENT</figcaption></figure></section>
-<section className="sweetMoment"><div><p className="kicker">05 · SAVE ROOM</p><h2>THE LAST<br/>BITE <em>MATTERS.</em></h2><p>Tiramisu. Cheesecake. Sweet finishes worth staying for.</p><a href="/menu#sweet-finish">SEE SWEET FINISHES →</a></div><figure><Image src="/images/vegan-tiramisu.png" alt="House of Vegano vegan tiramisu" fill sizes="(max-width:760px) 100vw,50vw"/></figure></section>
-
-<section className="houseMoment"><Image src="/images/mural-interior-hero.png" alt="House of Vegano interior mural in St. Petersburg" fill sizes="100vw"/><div><span>WELCOME TO</span><h2>THE HOUSE.</h2><a href="/menu">EXPLORE THE MENU →</a></div></section><section id="visit" className="visit">
-<div className="visitPhoto"><Image src="/images/restaurant-exterior-1990-central.png" alt="House of Vegano at 1990 Central Avenue" fill sizes="(max-width:800px) 100vw,55vw"/></div>
-<div className="visitCopy"><p className="kicker">06 · COME THROUGH</p><h2>YOUR TABLE<br/>IS <em>WAITING.</em></h2><p>1990 CENTRAL AVENUE<br/>ST. PETERSBURG, FLORIDA 33712</p><div className="buttons"><a className="hot" href="https://maps.google.com/?q=1990+Central+Ave+St+Petersburg+FL+33712" target="_blank" rel="noreferrer">GET DIRECTIONS</a><a className="darkLine" href="https://www.houseofvegano.com/" target="_blank" rel="noreferrer">MENU + ORDERING</a></div></div>
+<section className="menuUniverse">
+<div className="universeIntro"><p className="kicker">DINNER AT THE HOUSE · 03</p><h2>WHAT ARE<br/>YOU <em>CRAVING?</em></h2></div>
+<div className="categoryWall">
+{["ROLLS","SIGNATURE SIDES","BEVERAGES","DESSERTS","RAMEN","DUMPLINGS","TEST KITCHEN","POKE BOWL","SPECIAL EVENT","LUNCH SPECIAL"].map((x,i)=><a href="/menu" key={x}><span>{String(i+1).padStart(2,"0")}</span>{x}<b>↗</b></a>)}
+</div>
 </section>
-<footer><span>HOUSE OF VEGANO</span><span>PLANT-BASED · ST. PETE</span><span>PRIVATE CONCEPT PREVIEW</span></footer>
-<a className="mobileOrder" href="https://www.houseofvegano.com/" target="_blank" rel="noreferrer">ORDER NOW</a>
+
+<section className="testKitchen">
+<div><p className="kicker">THE TEST KITCHEN · 04</p><h2>WHAT’S<br/><em>NEXT?</em></h2><p>Where Thalia experiments. Limited ideas, new obsessions and dishes that may never behave like permanent menu items.</p></div>
+<figure><Image src="/images/thalia-chef-platter.png" alt="Thalia with House of Vegano creations" fill sizes="55vw"/></figure>
+</section>
+
+<section id="catering" className="splitAction">
+<div className="actionCard cateringCard"><Image src="/images/sushi-kraft-trays.png" alt="House of Vegano catering spread" fill sizes="50vw"/><div><span>CATERING</span><h2>BRING<br/>THE HOUSE.</h2><p>Make the table the part everyone remembers.</p><a href="mailto:hello@houseofvegano.com?subject=House%20of%20Vegano%20Catering">START A CATERING CONVERSATION →</a></div></div>
+<div id="events" className="actionCard eventCard"><Image src="/images/dining-room-green-wall.png" alt="House of Vegano dining room" fill sizes="50vw"/><div><span>PARTIES + EVENTS</span><h2>YOUR<br/>OCCASION.</h2><p>Birthdays, gatherings, celebrations and nights worth making personal.</p><a href="mailto:hello@houseofvegano.com?subject=House%20of%20Vegano%20Private%20Event">PLAN AN EVENT →</a></div></div>
+</section>
+
+<section className="love">
+<p className="kicker">LOVE FOR THE HOUSE · 05</p><h2>PEOPLE<br/><em>REMEMBER.</em></h2>
+<div className="reviewGrid">{reviews.map(([q,n])=><blockquote key={n}><div>★★★★★</div><p>“{q}”</p><cite>{n}<br/>GOOGLE REVIEW</cite></blockquote>)}</div>
+</section>
+
+<section className="finalFood"><Image src="/images/sushi-table-spread.png" alt="House of Vegano table spread" fill sizes="100vw"/><div><p>ONE TABLE.<br/><em>ORDER TOO MUCH.</em></p><a href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a></div></section>
+
+<section id="visit" className="visit visitV2">
+<div className="visitPhoto"><Image src="/images/restaurant-exterior-1990-central.png" alt="House of Vegano at 1990 Central Avenue" fill sizes="55vw"/></div>
+<div className="visitCopy"><p className="kicker">COME THROUGH · 06</p><h2>THE HOUSE<br/>IS <em>HERE.</em></h2><p>1990 CENTRAL AVENUE<br/>ST. PETERSBURG, FL 33712</p><div className="hours"><span>MON + THU</span><b>11 AM — 7 PM</b><span>FRI + SAT</span><b>11 AM — 10 PM</b><span>SUN</span><b>12 PM — 7 PM</b><span>TUE + WED</span><b>CLOSED</b></div><div className="buttons"><a className="hot" href="https://maps.google.com/?q=1990+Central+Ave+St+Petersburg+FL+33712" target="_blank" rel="noreferrer">GET DIRECTIONS</a><a className="darkLine" href="tel:+17275068627">(727) 506-8627</a></div></div>
+</section>
+
+<footer className="footerV2"><div><Image src="/images/house-of-vegano-logo.png" alt="House of Vegano" width={88} height={88}/><strong>HOUSE OF VEGANO</strong><p>REDEFINING VEGAN.<br/>REIMAGINING SUSHI.</p></div><div><b>EXPLORE</b><a href="/menu">Menu</a><a href="#thalia">Thalia</a><a href="#catering">Catering</a><a href="#events">Events</a></div><div><b>VISIT</b><span>1990 Central Ave</span><span>St. Petersburg, FL 33712</span><a href="tel:+17275068627">(727) 506-8627</a><a href="mailto:hello@houseofvegano.com">hello@houseofvegano.com</a></div><small>PRIVATE CONCEPT PREVIEW · HOUSE OF VEGANO</small></footer>
+<a className="mobileOrder" href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a>
 </main>}
