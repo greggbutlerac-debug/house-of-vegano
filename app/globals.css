@@ -535,3 +535,26 @@ button[class*="Cta"]:focus-visible{
 .roomImageStrip img{width:100%;height:100%;object-fit:cover;display:block}
 .roomImageStrip figcaption{position:absolute;left:24px;bottom:22px;background:rgba(0,0,0,.68);color:#fff;padding:9px 11px;font-size:8px;font-weight:900;letter-spacing:.14em}
 @media(max-width:760px){.roomImageStrip{grid-template-columns:1fr}.roomImageStrip figure{min-height:44vh}}
+
+/* INTERNAL SPECIALS PAGE */
+.specialsPage{background:#f1e9dc;color:#111;min-height:100vh}
+.specialsTop{height:82px;padding:0 5vw;display:flex;align-items:center;gap:28px;border-bottom:1px solid #1112;font-size:10px;letter-spacing:.17em;font-weight:900;background:#f1e9dc;position:relative;z-index:3}
+.specialsTop .specialsOrder{margin-left:auto;background:#16b8b0;padding:15px 20px;color:#061514}
+.specialsHero{position:relative;min-height:78vh;overflow:hidden;color:#fff}
+.specialsHeroImage{position:absolute;inset:0}.specialsHeroImage img{width:100%;height:100%;object-fit:cover}
+.specialsHeroShade{position:absolute;inset:0;background:linear-gradient(90deg,#050505e8 0%,#0505058b 48%,#05050525 78%),linear-gradient(0deg,#0009,transparent 55%)}
+.specialsHeroCopy{position:absolute;z-index:2;left:7vw;top:50%;transform:translateY(-44%);max-width:760px}
+.specialsHeroCopy>span,.specialsDeal span,.specialsBuild span,.specialsCta>span{font-size:10px;letter-spacing:.22em;font-weight:900;color:#20c9bf}
+.specialsHeroCopy h1,.specialsDeal h2,.specialsBuild h2,.specialsCta h2{font-size:clamp(68px,9vw,138px);line-height:.76;letter-spacing:-.065em;margin:24px 0}
+.specialsHeroCopy h1 em,.specialsDeal h2 em,.specialsBuild h2 em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
+.specialsHeroCopy p{font-family:Georgia,serif;font-size:clamp(19px,2vw,28px);line-height:1.5;max-width:580px}
+.specialsDeal{display:grid;grid-template-columns:1fr 1fr;gap:8vw;padding:9vw 7vw;background:#ef2c85;color:#0b0b0b}
+.specialsDeal span{color:#0b0b0b}.specialsDeal h2 em{color:#0b0b0b}
+.specialsDealCopy{display:flex;flex-direction:column;justify-content:center}.specialsDealCopy>p{font-family:Georgia,serif;font-size:24px;line-height:1.55}
+.specialsDealTags{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}.specialsDealTags b{border:1px solid #1115;padding:9px 12px;font-size:8px;letter-spacing:.14em}
+.specialsDates{display:grid;grid-template-columns:repeat(3,1fr);background:#111;color:#fff}
+.specialsDates article{padding:52px 38px;border-right:1px solid #ffffff1c;min-height:320px}.specialsDates article:last-child{border-right:0}
+.specialsDates span{font-size:10px;letter-spacing:.2em;color:#20c9bf;font-weight:900}.specialsDates strong{display:block;font-size:36px;margin:18px 0 10px}.specialsDates b{display:block;color:#ef2c85;font-size:11px;letter-spacing:.13em}.specialsDates p{font-family:Georgia,serif;line-height:1.55;color:#d8d0c5;margin-top:28px}
+.specialsBuild{display:grid;grid-template-columns:1fr 1fr;min-height:80vh}.specialsBuild figure{margin:0;min-height:70vh}.specialsBuild figure img{width:100%;height:100%;object-fit:cover;display:block}.specialsBuild>div{padding:8vw 7vw;display:flex;flex-direction:column;justify-content:center;background:#f1e9dc}.specialsBuild p{font-family:Georgia,serif;font-size:20px;line-height:1.6;color:#4c463e}.specialsBuild a{margin-top:24px;font-size:9px;font-weight:900;letter-spacing:.16em;color:#07847e}
+.specialsCta{padding:9vw 7vw;background:#16b8b0;color:#071110}.specialsCta>span{color:#071110}.specialsCta h2{margin-bottom:38px}.specialsCta>div{display:flex;gap:12px;flex-wrap:wrap}.specialsCta a{border:1px solid #071110;padding:17px 22px;font-size:10px;font-weight:900;letter-spacing:.14em}.specialsCta .specialsHot{background:#071110;color:#fff}
+@media(max-width:760px){.specialsTop{height:68px;padding:0 18px;gap:16px}.specialsTop a:nth-child(3){display:none}.specialsHero{min-height:70vh}.specialsHeroCopy{left:22px;right:22px}.specialsHeroCopy h1{font-size:61px}.specialsDeal,.specialsBuild{grid-template-columns:1fr}.specialsDeal{padding:80px 22px}.specialsDeal h2,.specialsBuild h2,.specialsCta h2{font-size:58px}.specialsDates{grid-template-columns:1fr}.specialsDates article{border-right:0;border-bottom:1px solid #ffffff1c;min-height:auto;padding:38px 22px}.specialsBuild figure{min-height:52vh}.specialsBuild>div,.specialsCta{padding:80px 22px}}
