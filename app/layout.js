@@ -7,7 +7,7 @@ export const metadata={
   },
   description:"House of Vegano is a chef-driven plant-based sushi restaurant in St. Petersburg, Florida, serving signature rolls, ramen, dumplings and more.",
   keywords:["House of Vegano","vegan sushi St. Petersburg","plant-based sushi","vegan restaurant St. Petersburg","vegan ramen","vegan dumplings"],
-  icons:{icon:"/images/house-of-vegano-logo.png",apple:"/images/house-of-vegano-logo.png"},
+  icons:{icon:"/images/house-logo-blue.webp",apple:"/images/house-logo-blue.webp"},
   openGraph:{
     title:"House of Vegano | Redefining Vegan. Reimagining Sushi.",
     description:"Chef-driven plant-based sushi, ramen, dumplings and more in St. Petersburg, Florida.",
