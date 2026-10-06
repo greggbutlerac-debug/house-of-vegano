@@ -77,7 +77,7 @@ export default function Home(){return <main>
     <p>House of Vegano is inseparable from the person behind it—from the plate in her hands to the room she built around it.</p>
   </div>
   <div className="thaliaGalleryGrid">
-    <figure className="tgPortrait"><img src="/images/thalia-portrait-greenery.png" alt="House of Vegano founder in chef attire"/><figcaption>CHEF + FOUNDER</figcaption></figure>
+    <figure className="tgPortrait"><img src="/images/thalia-chef-serious.webp" alt="Thalia in chef attire looking into the camera"/><figcaption>CHEF + FOUNDER</figcaption></figure>
     <figure><img src="/images/thalia-chef-platter.png" alt="House of Vegano plated dish presentation"/><figcaption>THE PLATE</figcaption></figure>
     <figure><img src="/images/thalia-founder-exterior.png" alt="House of Vegano founder outside the restaurant"/><figcaption>THE HOUSE</figcaption></figure>
   </div>
