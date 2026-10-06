@@ -583,3 +583,7 @@ button[class*="Cta"]:focus-visible{
 .thaliaGalleryGrid{grid-template-columns:1fr}
 .thaliaGalleryGrid figure{min-height:62vh}
 }
+
+/* hide-first-gallery-card */
+.thaliaGalleryGrid>figure:first-child{display:none}
+.thaliaGalleryGrid{grid-template-columns:1fr 1fr}
