@@ -11,7 +11,7 @@ const reviews=[
 export default function Home(){return <main>
 <header className="nav navV2">
 <a className="brand" href="#top"><Image src="/images/house-of-vegano-logo.png" alt="House of Vegano" width={68} height={68}/><span>HOUSE OF VEGANO</span></a>
-<nav><a href="/menu">MENU</a><a href="#thalia">THALIA</a><a href="#catering">CATERING</a><a href="#events">EVENTS</a><a href="#visit">VISIT</a></nav>
+<nav><a href="/menu">MENU</a><a href="/specials">SPECIALS</a><a href="#thalia">THALIA</a><a href="#catering">CATERING</a><a href="#events">EVENTS</a><a href="#visit">VISIT</a></nav>
 <a className="order" href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a>
 </header>
 
