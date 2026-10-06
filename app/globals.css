@@ -584,3 +584,15 @@ button[class*="Cta"]:focus-visible{
 .thaliaGalleryGrid figure{min-height:62vh}
 }
 
+
+.mobileHouseNav{display:none}
+@media(max-width:760px){
+  .mobileHouseNav{
+    display:flex;position:sticky;top:74px;z-index:39;gap:18px;overflow-x:auto;
+    padding:12px 18px;background:rgba(8,8,8,.96);color:#fff;
+    border-top:1px solid #ffffff18;border-bottom:1px solid #ffffff18;
+    font-size:9px;font-weight:900;letter-spacing:.16em;white-space:nowrap;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none
+  }
+  .mobileHouseNav::-webkit-scrollbar{display:none}
+}
