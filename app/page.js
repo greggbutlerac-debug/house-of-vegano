@@ -70,6 +70,20 @@ export default function Home(){return <main>
 <div className="thaliaWords"><p className="kicker">THE CREATIVE FORCE · 02</p><h2>THALIA’S<br/><em>VISION.</em></h2><p className="bigQuote">“Our mission is to make plant-based sushi not just an alternative, but a destination.”</p><p>House of Vegano is reimagining sushi and redefining what plant-based cuisine can be on a global stage. Rooted in St. Petersburg, Florida, the flagship is the heartbeat of a vision that reaches far beyond the Gulf.</p><p>With planned locations in New York, Los Angeles and London, Thalia is building toward a future where creativity, sustainability and culture meet at the table. Beyond the restaurants, the vision extends into a retail line of signature ramen kits, dumplings and sauces designed to bring the House of Vegano experience into homes around the world.</p><p className="thaliaClosing">Bold. Elegant. Undeniably amazing.</p><div className="thaliaPrinciples"><span><b>01</b> REIMAGINE SUSHI.</span><span><b>02</b> BUILD GLOBALLY.</span><span><b>03</b> BRING THE HOUSE HOME.</span></div><a href="#visit">EXPERIENCE THE FLAGSHIP →</a></div>
 </section>
 
+<section className="thaliaGallery">
+  <div className="thaliaGalleryIntro">
+    <span>THALIA · IN THE HOUSE</span>
+    <h2>THE CHEF.<br/>THE FOOD.<br/><em>THE VISION.</em></h2>
+    <p>House of Vegano is inseparable from the person behind it—from the plate in her hands to the room she built around it.</p>
+  </div>
+  <div className="thaliaGalleryGrid">
+    <figure className="tgTall"><img src="/images/thalia-portrait-new.png" alt="House of Vegano founder portrait"/><figcaption>CHEF + FOUNDER</figcaption></figure>
+    <figure><img src="/images/thalia-chef-platter.png" alt="House of Vegano plated dish presentation"/><figcaption>THE PLATE</figcaption></figure>
+    <figure><img src="/images/thalia-founder-exterior.png" alt="House of Vegano founder outside the restaurant"/><figcaption>THE HOUSE</figcaption></figure>
+    <figure className="tgWide"><img src="/images/sushi-table-spread.png" alt="House of Vegano sushi spread"/><figcaption>THE FOOD</figcaption></figure>
+  </div>
+</section>
+
 <section className="globalVision">
   <div className="globalVisionIntro"><p className="kicker">FROM ST. PETE TO THE WORLD · 03</p><h2>A HOUSE<br/>WITHOUT<br/><em>BORDERS.</em></h2><p>St. Petersburg is the beginning—not the boundary. House of Vegano is being shaped as a restaurant, a product line and a global point of view on what plant-based cuisine can become.</p></div>
   <div className="globalVisionGrid">
@@ -90,7 +104,7 @@ export default function Home(){return <main>
 
 <section className="testKitchen">
 <div><p className="kicker">THE TEST KITCHEN · 05</p><h2>WHAT’S<br/><em>NEXT?</em></h2><p>Where Thalia experiments. Limited ideas, new obsessions and dishes that may never behave like permanent menu items.</p><p className="testKitchenExtra">This is the permission slip for the menu to stay alive. A place for surprise, seasonal instincts and whatever idea is too interesting to leave in the notebook.</p><div className="testKitchenTags"><span>LIMITED</span><span>EXPERIMENTAL</span><span>THALIA’S PICK</span></div><a className="sectionCta darkCta" href="/menu/test-kitchen">ENTER THE TEST KITCHEN →</a></div>
-<figure><Image src="/images/thalia-chef-platter.png" alt="Thalia with House of Vegano creations" fill sizes="55vw"/></figure>
+<figure><img className="officialPhoto" src="/images/thalia-founder-exterior.png" alt="House of Vegano founder outside the restaurant"/></figure>
 </section>
 
 <section id="catering" className="splitAction">
