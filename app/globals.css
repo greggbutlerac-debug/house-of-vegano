@@ -730,5 +730,5 @@ button[class*="Cta"]:focus-visible{
 
 /* ONE BITE PHOTO — direct image element */
 .sidesSpotlight>.sidesChefFrame{margin:0!important;position:relative!important;overflow:hidden!important;height:90vh!important;min-height:90vh!important;background:#0b0b0b!important;padding:0!important}
-.sidesSpotlight>.sidesChefFrame>.sidesChefPhoto{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover!important;object-position:center center!important;display:block!important;opacity:1!important;visibility:visible!important}
+.sidesSpotlight>.sidesChefFrame>.sidesChefPhoto{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:contain!important;object-position:center top!important;display:block!important;opacity:1!important;visibility:visible!important}
 @media(max-width:760px){.sidesSpotlight>.sidesChefFrame{height:62vh!important;min-height:62vh!important}}
