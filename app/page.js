@@ -1,7 +1,7 @@
 import Image from "next/image";
 import HeroSlider from "./HeroSlider";
 
-const orderUrl="https://www.houseofvegano.com/";
+const orderUrl="https://tmt.spotapps.co/ordering-menu?spot_id=109242&accordion=true&images=yes";
 const reviews=[
 ["THE DUMPLINGS WERE AMAZING TOO!","J_OKAYYY"],
 ["EVERYTHING WAS FANTASTIC.","KAYA BEMLEY"],
@@ -14,6 +14,7 @@ export default function Home(){return <main>
 <nav><a href="/menu">MENU</a><a href="/menu/beverages">DRINKS</a><a href="/specials">SPECIALS</a><a href="/catering">CATERING</a><a href="/events">EVENTS</a><a href="#visit">VISIT</a></nav>
 <a className="order" href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a>
 </header>
+<nav className="mobileHouseNav" aria-label="House destinations"><a href="/menu">MENU</a><a href="/menu/beverages">DRINKS</a><a href="/specials">SPECIALS</a><a href="/catering">CATERING</a><a href="/events">EVENTS</a><a href="#visit">VISIT</a></nav>
 
 <section id="top" className="hero heroV2"><div className="heroMotion" aria-hidden="true"><span className="motionWord m1">THALIA’S HOUSE</span><span className="motionWord m2">REIMAGINED</span><span className="motionWord m3">ST. PETE</span></div>
 <video className="houseHeroVideo" autoPlay loop muted playsInline poster="https://static.spotapps.co/website_images/ab_websites/109242_website/video_poster.jpg" aria-label="House of Vegano restaurant video">
