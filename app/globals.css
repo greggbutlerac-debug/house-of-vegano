@@ -634,3 +634,30 @@ button[class*="Cta"]:focus-visible{
   .sidesMenu{padding:80px 22px}.sidesMenuIntro{display:block}.sidesMenuIntro h2{margin:25px 0}.sidesMenuGrid{grid-template-columns:1fr}.sidesMenuGrid article{padding:28px}
   .sidesBuild{padding:80px 22px}.sidesClose{padding:85px 22px 110px}
 }
+
+/* HOUSE MENU — POLISHED ITEM CARDS */
+.plateMenu{padding:7vw 6vw 8vw;background:#f6f0e7;color:#111;border-top:1px solid #1111}
+.plateMenuIntro{display:grid;grid-template-columns:.55fr 1.1fr .75fr;gap:4vw;align-items:end;margin-bottom:48px}
+.plateMenuIntro>span{font-size:9px;font-weight:900;letter-spacing:.2em;color:#07847e;align-self:start}
+.plateMenuIntro h2{font-size:clamp(48px,5.8vw,88px);line-height:.82;letter-spacing:-.055em;margin:0}
+.plateMenuIntro h2 em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
+.plateMenuIntro p{font-family:Georgia,serif;font-size:17px;line-height:1.55;color:#5e584f;margin:0}
+.plateCardGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.plateCard{background:#fff;border:1px solid #1111;box-shadow:0 8px 24px #00000010;display:flex;flex-direction:column;min-width:0;transition:transform .22s ease,box-shadow .22s ease}
+.plateCard:hover{transform:translateY(-4px);box-shadow:0 14px 34px #00000018}
+.plateCardImage{display:block;aspect-ratio:1.15/1;overflow:hidden;background:#ddd}
+.plateCardImage img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}
+.plateCard:hover .plateCardImage img{transform:scale(1.025)}
+.plateCardBody{padding:18px 18px 16px;display:flex;flex-direction:column;gap:11px;flex:1}
+.plateCardBody>small{font-size:8px;font-weight:900;letter-spacing:.16em;color:#07847e}
+.plateCardTitle{display:flex;gap:14px;align-items:flex-start;justify-content:space-between}
+.plateCardTitle h3{font-family:Georgia,serif;font-size:20px;line-height:1.08;margin:0}
+.plateCardTitle b{font-family:Georgia,serif;font-size:19px;color:#d32073;white-space:nowrap}
+.plateCardBody>p{font-size:13px;line-height:1.5;color:#625d55;margin:0;min-height:58px}
+.plateCardActions{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #1112;margin-top:auto;padding-top:12px}
+.plateCardActions a{font-size:8px;font-weight:900;letter-spacing:.12em;padding:8px 6px;text-align:center;border-right:1px solid #1112}
+.plateCardActions a:last-child{border-right:0;color:#07847e}
+.plateCardActions a:hover{background:#f2ece3}
+@media(max-width:1100px){.plateCardGrid{grid-template-columns:repeat(3,minmax(0,1fr))}.plateMenuIntro{grid-template-columns:1fr 1.2fr}.plateMenuIntro p{grid-column:2}}
+@media(max-width:760px){.plateMenu{padding:72px 18px 95px}.plateMenuIntro{display:block;margin-bottom:30px}.plateMenuIntro h2{font-size:50px;margin:18px 0}.plateMenuIntro p{font-size:15px}.plateCardGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.plateCardBody{padding:13px}.plateCardTitle h3{font-size:16px}.plateCardTitle b{font-size:16px}.plateCardBody>p{font-size:12px;min-height:72px}.plateCardActions{grid-template-columns:1fr}.plateCardActions a{border-right:0;border-bottom:1px solid #1112}.plateCardActions a:last-child{border-bottom:0}}
+@media(max-width:460px){.plateCardGrid{grid-template-columns:1fr}.plateCardBody>p{min-height:0}}
