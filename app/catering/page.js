@@ -1,5 +1,5 @@
 export default function Page(){return <main className="standaloneExperience cateringExperience">
-<header className="categoryTop"><a href="/">← THE HOUSE</a><a href="/menu">MENU</a><a href="https://www.houseofvegano.com/" target="_blank" rel="noreferrer">ORDER NOW ↗</a></header>
+<header className="categoryTop"><a href="/">← THE HOUSE</a><a href="/menu">MENU</a><a href="https://tmt.spotapps.co/ordering-menu?spot_id=109242&accordion=true&images=yes" target="_blank" rel="noreferrer">ORDER NOW ↗</a></header>
 <section className="categoryHero"><img className="officialPhoto" src="https://static.spotapps.co/spots/ba/8052955df8400daceafb22e25c7503/full" alt="House of Vegano catering sushi spread"/><div className="categoryShade"/><div className="categoryHeroCopy"><p>CATERING · HOUSE OF VEGANO</p><h1>BRING<br/>THE HOUSE.</h1><em>Make the table the part everyone remembers.</em></div></section>
 
 <section className="categoryStatement"><span>CATERING · ST. PETERSBURG</span><h2>Not trays of “vegan options.” A House of Vegano table.</h2><p className="categoryLead">Color, texture, signature rolls, dumplings and presentation built to make the food feel like part of the occasion—not an afterthought.</p><a className="experienceMail" href="mailto:hello@houseofvegano.com?subject=House%20of%20Vegano%20Catering">START A CATERING CONVERSATION →</a></section>
