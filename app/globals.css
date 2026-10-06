@@ -728,16 +728,7 @@ button[class*="Cta"]:focus-visible{
 @media(max-width:760px){.fullMenuCardGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.menuSectionCards{padding:70px 18px}}
 @media(max-width:460px){.fullMenuCardGrid{grid-template-columns:1fr}}
 
-/* ONE BITE PHOTO — isolated frame */
-.sidesChefFrame{position:relative!important;height:90vh!important;min-height:90vh!important;margin:0!important;overflow:hidden!important;background:#0b0b0b}
-.sidesChefFrame>.sidesChefPhoto{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover!important;object-position:center 18%!important;display:block!important;opacity:1!important;visibility:visible!important;z-index:1!important}
-@media(max-width:760px){.sidesChefFrame{height:62vh!important;min-height:62vh!important}}
-
-/* ONE BITE PHOTO — background rendering avoids replaced-element sizing issues */
-.sidesSpotlight>.sidesChefFrame{display:block!important;width:100%!important;height:90vh!important;min-height:90vh!important;background-image:url("/images/thalia-one-bite.jpeg?v=20261006e")!important;background-size:cover!important;background-position:center 18%!important;background-repeat:no-repeat!important}
-@media(max-width:760px){.sidesSpotlight>.sidesChefFrame{height:62vh!important;min-height:62vh!important}}
-
-/* ONE BITE PHOTO — render actual uploaded portrait as an element */
-.sidesSpotlight>.sidesChefFrame{background:none!important;position:relative!important;overflow:hidden!important;height:90vh!important;min-height:90vh!important}
-.sidesSpotlight>.sidesChefFrame::before{content:""!important;position:absolute!important;inset:0!important;background:url("/images/thalia-one-bite.jpeg?v=20261006f") center center/contain no-repeat!important;background-color:#0b0b0b!important;display:block!important}
+/* ONE BITE PHOTO — direct image element */
+.sidesSpotlight>.sidesChefFrame{margin:0!important;position:relative!important;overflow:hidden!important;height:90vh!important;min-height:90vh!important;background:#0b0b0b!important;padding:0!important}
+.sidesSpotlight>.sidesChefFrame>.sidesChefPhoto{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover!important;object-position:center center!important;display:block!important;opacity:1!important;visibility:visible!important}
 @media(max-width:760px){.sidesSpotlight>.sidesChefFrame{height:62vh!important;min-height:62vh!important}}
