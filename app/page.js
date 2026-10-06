@@ -77,10 +77,9 @@ export default function Home(){return <main>
     <p>House of Vegano is inseparable from the person behind it—from the plate in her hands to the room she built around it.</p>
   </div>
   <div className="thaliaGalleryGrid">
-    <figure className="tgTall"><img src="/images/thalia-portrait-new.png" alt="House of Vegano founder portrait"/><figcaption>CHEF + FOUNDER</figcaption></figure>
+    <figure><img src="/images/thalia-portrait-greenery.png" alt="House of Vegano founder portrait"/><figcaption>CHEF + FOUNDER</figcaption></figure>
     <figure><img src="/images/thalia-chef-platter.png" alt="House of Vegano plated dish presentation"/><figcaption>THE PLATE</figcaption></figure>
     <figure><img src="/images/thalia-founder-exterior.png" alt="House of Vegano founder outside the restaurant"/><figcaption>THE HOUSE</figcaption></figure>
-    <figure className="tgWide"><img src="/images/sushi-table-spread.png" alt="House of Vegano sushi spread"/><figcaption>THE FOOD</figcaption></figure>
   </div>
 </section>
 
@@ -104,7 +103,7 @@ export default function Home(){return <main>
 
 <section className="testKitchen">
 <div><p className="kicker">THE TEST KITCHEN · 05</p><h2>WHAT’S<br/><em>NEXT?</em></h2><p>Where Thalia experiments. Limited ideas, new obsessions and dishes that may never behave like permanent menu items.</p><p className="testKitchenExtra">This is the permission slip for the menu to stay alive. A place for surprise, seasonal instincts and whatever idea is too interesting to leave in the notebook.</p><div className="testKitchenTags"><span>LIMITED</span><span>EXPERIMENTAL</span><span>THALIA’S PICK</span></div><a className="sectionCta darkCta" href="/menu/test-kitchen">ENTER THE TEST KITCHEN →</a></div>
-<figure><img className="officialPhoto" src="/images/thalia-founder-exterior.png" alt="House of Vegano founder outside the restaurant"/></figure>
+<figure><img className="officialPhoto" src="/images/sushi-table-spread.png" alt="House of Vegano sushi spread"/></figure>
 </section>
 
 <section id="catering" className="splitAction">
