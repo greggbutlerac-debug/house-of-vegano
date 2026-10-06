@@ -4,7 +4,7 @@ const orderUrl="https://tmt.spotapps.co/ordering-menu?spot_id=109242&accordion=t
 
 export default function Home(){return <main className="fwConcept">
 <header className="fwTop">
-  <a className="fwBrand" href="#top"><Image src="/images/house-of-vegano-logo.png" alt="House of Vegano" width={62} height={62}/><span>HOUSE OF VEGANO</span></a>
+  <a className="fwBrand" href="#top"><Image src="/images/house-logo-blue.webp" alt="House of Vegano" width={62} height={62}/><span>HOUSE OF VEGANO</span></a>
   <nav><a href="/menu">MENU</a><a href="/specials">SPECIALS</a><a href="#visit">VISIT</a><a href="/events">EVENTS</a></nav>
   <a className="fwOrder" href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW</a>
 </header>
