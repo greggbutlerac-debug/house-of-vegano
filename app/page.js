@@ -8,7 +8,21 @@ const reviews=[
 ["SPICY TAHINI DUMPLINGS WERE 100% THE HIGHLIGHT.","MITCHELL BARNES"]
 ];
 
-export default function Home(){return <main>
+export default function Home(){const restaurantSchema={
+  "@context":"https://schema.org",
+  "@type":"Restaurant",
+  "name":"House of Vegano",
+  "servesCuisine":["Vegan","Plant-based","Sushi","Ramen"],
+  "telephone":"+1-727-506-8627",
+  "priceRange":"$",
+  "address":{"@type":"PostalAddress","streetAddress":"1990 Central Ave","addressLocality":"St. Petersburg","addressRegion":"FL","postalCode":"33712","addressCountry":"US"},
+  "menu":"https://house-of-vegano-ta-14-exchange.vercel.app/menu",
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Thursday"],"opens":"11:00","closes":"19:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"11:00","closes":"22:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"12:00","closes":"19:00"}
+  ]
+};return <main><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(restaurantSchema)}}/>
 <header className="nav navV2">
 <a className="brand" href="#top"><Image src="/images/house-of-vegano-logo.png" alt="House of Vegano" width={68} height={68}/><span>HOUSE OF VEGANO</span></a>
 <nav><a href="/menu">MENU</a><a href="/menu/beverages">DRINKS</a><a href="/specials">SPECIALS</a><a href="/catering">CATERING</a><a href="/events">EVENTS</a><a href="#visit">VISIT</a></nav>
