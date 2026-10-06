@@ -571,7 +571,7 @@ button[class*="Cta"]:focus-visible{
 .thaliaGalleryIntro h2 em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
 .thaliaGalleryIntro p{grid-column:2;max-width:620px;font-family:Georgia,serif;font-size:19px;line-height:1.55;color:#4c463e}
 .thaliaGalleryGrid{display:grid;grid-template-columns:1.05fr 1fr 1fr;gap:2px;background:#111}
-.thaliaGalleryGrid figure{position:relative;margin:0;min-height:68vh;overflow:hidden}.thaliaGalleryGrid .tgPortrait{background:#151515;display:flex;align-items:center;justify-content:center;padding:40px}.thaliaGalleryGrid .tgPortrait img{width:78%;max-width:320px;height:auto;object-fit:contain}
+.thaliaGalleryGrid figure{position:relative;margin:0;min-height:68vh;overflow:hidden}
 .thaliaGalleryGrid img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s ease}
 .thaliaGalleryGrid figure:hover img{transform:scale(1.025)}
 .thaliaGalleryGrid figcaption{position:absolute;left:22px;bottom:20px;background:rgba(0,0,0,.66);color:#fff;padding:9px 11px;font-size:8px;font-weight:900;letter-spacing:.14em}
@@ -584,6 +584,3 @@ button[class*="Cta"]:focus-visible{
 .thaliaGalleryGrid figure{min-height:62vh}
 }
 
-/* hide-first-gallery-card */
-.thaliaGalleryGrid>figure:first-child{display:none}
-.thaliaGalleryGrid{grid-template-columns:1fr 1fr}
