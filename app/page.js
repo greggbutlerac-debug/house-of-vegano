@@ -24,7 +24,7 @@ export default function Home(){const restaurantSchema={
   ]
 };return <main><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(restaurantSchema)}}/>
 <header className="nav navV2">
-<a className="brand" href="#top"><Image src="/images/house-of-vegano-logo.png" alt="House of Vegano" width={68} height={68}/><span>HOUSE OF VEGANO</span></a>
+<a className="brand" href="#top"><Image src="/images/house-logo-blue.webp" alt="House of Vegano" width={68} height={68}/><span>HOUSE OF VEGANO</span></a>
 <nav><a href="/menu">MENU</a><a href="/menu/beverages">DRINKS</a><a href="/specials">SPECIALS</a><a href="/catering">CATERING</a><a href="/events">EVENTS</a><a href="#visit">VISIT</a></nav>
 <a className="order" href={orderUrl} target="_blank" rel="noreferrer">ORDER NOW ↗</a>
 </header>
