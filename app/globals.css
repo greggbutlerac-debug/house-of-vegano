@@ -563,3 +563,23 @@ button[class*="Cta"]:focus-visible{
 .internalNav a{font-size:9px;font-weight:900;letter-spacing:.16em;white-space:nowrap}
 .menuNav .internalNav{margin:0 auto}
 @media(max-width:900px){.internalNav{display:none}}
+
+.thaliaGallery{background:#f1e9dc;color:#111;padding:9vw 7vw}
+.thaliaGalleryIntro{display:grid;grid-template-columns:.45fr 1fr;column-gap:5vw;align-items:end;margin-bottom:55px}
+.thaliaGalleryIntro>span{font-size:10px;letter-spacing:.22em;font-weight:900;color:#07847e}
+.thaliaGalleryIntro h2{font-size:clamp(64px,8vw,124px);line-height:.78;letter-spacing:-.06em;margin:0}
+.thaliaGalleryIntro h2 em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
+.thaliaGalleryIntro p{grid-column:2;max-width:620px;font-family:Georgia,serif;font-size:19px;line-height:1.55;color:#4c463e}
+.thaliaGalleryGrid{display:grid;grid-template-columns:1.05fr 1fr 1fr;gap:2px;background:#111}
+.thaliaGalleryGrid figure{position:relative;margin:0;min-height:68vh;overflow:hidden}
+.thaliaGalleryGrid img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s ease}
+.thaliaGalleryGrid figure:hover img{transform:scale(1.025)}
+.thaliaGalleryGrid figcaption{position:absolute;left:22px;bottom:20px;background:rgba(0,0,0,.66);color:#fff;padding:9px 11px;font-size:8px;font-weight:900;letter-spacing:.14em}
+@media(max-width:760px){
+.thaliaGallery{padding:80px 22px}
+.thaliaGalleryIntro{display:block}
+.thaliaGalleryIntro h2{font-size:58px;margin:22px 0}
+.thaliaGalleryIntro p{font-size:18px}
+.thaliaGalleryGrid{grid-template-columns:1fr}
+.thaliaGalleryGrid figure{min-height:62vh}
+}
