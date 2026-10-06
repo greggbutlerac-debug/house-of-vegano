@@ -496,3 +496,36 @@ button[class*="Cta"]:focus-visible{
 .drinkBottleGrid span{position:absolute;z-index:2;left:20px;bottom:18px;color:#fff;font-size:8px;font-weight:900;letter-spacing:.15em}
 .drinkBottleGrid article:hover img{transform:scale(1.04)}
 @media(max-width:760px){.drinkBottleGrid{min-height:0}.drinkBottleGrid article{min-height:42vh}}
+
+/* DEPTH PASS · TEST KITCHEN / POKE / EVENTS / LUNCH */
+.depthSplit{display:grid;grid-template-columns:1fr 1fr;min-height:86vh;background:#111;color:#fff}
+.depthSplit>div{padding:8vw 7vw;display:flex;flex-direction:column;justify-content:center}
+.depthSplit>figure{position:relative;margin:0;min-height:70vh;overflow:hidden}
+.depthSplit>figure img{width:100%;height:100%;object-fit:cover;display:block}
+.depthSplit span{font-size:10px;font-weight:900;letter-spacing:.2em;color:#20c9bf;margin-bottom:20px}
+.depthSplit h2{font-size:clamp(58px,8vw,118px);line-height:.78;letter-spacing:-.06em;margin:0 0 28px}
+.depthSplit h2 em{font-family:Georgia,serif;font-weight:400;color:#ef2c85}
+.depthSplit p{max-width:620px;font-family:Georgia,serif;font-size:20px;line-height:1.6;color:#d8d0c5}
+.depthSplit a{margin-top:26px;font-size:9px;font-weight:900;letter-spacing:.16em;color:#20c9bf}
+.depthTags{display:flex;flex-wrap:wrap;gap:8px;margin-top:25px}
+.depthTags b{border:1px solid #ffffff30;padding:9px 12px;font-size:8px;letter-spacing:.13em}
+.depthCards{display:grid;grid-template-columns:repeat(3,1fr);background:#f1e9dc;color:#111}
+.depthCards article{padding:55px 42px;border-right:1px solid #1112}
+.depthCards article:last-child{border-right:0}
+.depthCards small{font-size:9px;letter-spacing:.16em;color:#d32073;font-weight:900}
+.depthCards strong{display:block;font-size:28px;line-height:1;margin:18px 0}
+.depthCards p{font-family:Georgia,serif;line-height:1.55;color:#443f39}
+.testDepth{background:#ef2c85;color:#0c0c0c}.testDepth span,.testDepth a{color:#0c0c0c}.testDepth h2 em{color:#0c0c0c}.testDepth p{color:#1d1a1a}.testDepth .depthTags b{border-color:#0c0c0c44}
+.pokeDepth{background:#0b3f3d}.eventDepth{background:#151515}.lunchDepth{background:#20170f}
+.eventGallery{display:grid;grid-template-columns:repeat(3,1fr);height:55vh;background:#000;gap:2px}
+.eventGallery img{width:100%;height:100%;object-fit:cover;display:block}
+@media(max-width:760px){
+.depthSplit{grid-template-columns:1fr}
+.depthSplit>div{padding:80px 22px}
+.depthSplit>figure{min-height:55vh;order:-1}
+.depthSplit h2{font-size:58px}
+.depthCards{grid-template-columns:1fr}
+.depthCards article{border-right:0;border-bottom:1px solid #1112;padding:38px 22px}
+.eventGallery{grid-template-columns:1fr;height:auto}
+.eventGallery img{height:46vh}
+}
